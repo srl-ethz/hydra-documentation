@@ -16,7 +16,7 @@ The Hydra MK1 Documentation
    
 .. toctree::
    :maxdepth: 2
-   :caption: Bill of Materials
+   :caption: Bill of Materials (BOM)
    
    Overview <bom/overview>
    Machined Parts <bom/machined>
