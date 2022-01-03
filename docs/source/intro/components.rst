@@ -11,6 +11,7 @@ The framework of the printer is built up on the **Rat Rig V-Core 3** by Rat Rig 
 
 .. figure:: img/RatRig.png
     :align: right
+    :figwidth: 200px
 
     The default Rat Rig V-core 3 System (Source: www.ratrig.com)
 
@@ -19,7 +20,7 @@ Mounted on the tool head of the Rat Rig is the **E3D tool changer** system. It u
 
 .. figure:: img/toolchangerboth.png
     :align: right
-    :figwidth: 200px
+    :figwidth: 400px
 
     The E3D toolchanger (left) and the receiving plate (right). (Source: e3d-online.com)
 
@@ -32,8 +33,7 @@ The standard configuration of the Hydra MK1 features two **E3D Hemeras** and two
 
 .. figure:: img/Extruders.png
     :align: right
-    :figwidth: 200px
+    :figwidth: 400px
     
     The hemera extruder (left) and the V4 pellet extruder (right). (Source: e3d-online.com \& mahor.xyz)
-    
-Text
+
