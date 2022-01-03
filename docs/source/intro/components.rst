@@ -17,7 +17,7 @@ The framework of the printer is built up on the **Rat Rig V-Core 3** by Rat Rig 
 
 Mounted on the tool head of the Rat Rig is the **E3D tool changer** system. It uses a three groove kinematic coupling, where three steel balls are located in V-slots or between two rods, to create a repeatable mechanical coupling. This mechanism is held in place by a rotating shaft, that can interlock with the receiving tool plates. The two sides of the system can be seen in figure NUMBER.
 
-.. figure:: img/ToolChangerBoth.png
+.. figure:: img/toolchangerboth.png
     :align: right
     :figwidth: 200px
 
