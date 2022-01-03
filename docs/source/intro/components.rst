@@ -9,7 +9,7 @@ Framework
 
 The framework of the printer is built up on the **Rat Rig V-Core 3** by Rat Rig Lda., seen in figure NUMBER (From this point on referred to as Rat Rig). This is a [core XY](https://corexy.com/theory.html) system with three independent Z-axis motors. This makes it perfect for tool swapping, since the print head is able to move with two degrees of freedom, while not moving in z direction. Additionally, the independent Z-motors make leveling the print platform completely automatic. For the Hydra MK1 the 400mm x 400mm x 400mm build volume was chosen. While this could be substituted for the 500mm version, the 300mm version offers to little space in the back to park the tools.
 
-.. figure:: img/ratrig.png
+.. figure:: img/RatRig.png
     :align: right
     :figwidth: 600px
 
