@@ -43,6 +43,7 @@ The Hydra MK1 Documentation
    :maxdepth: 2
    :caption: Usage
    
+   Hardware and Software Overview <usage/overview>
    Powering Up and Connecting to the Printer <usage/power>
    Homing <usage/homing>
    Preheating and Swapping Tools <usage/preheat>
