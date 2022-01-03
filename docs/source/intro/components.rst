@@ -35,3 +35,5 @@ The standard configuration of the Hydra MK1 features two **E3D Hemeras** and two
     :figwidth: 200px
     
     The hemera extruder (left) and the V4 pellet extruder (right). (Source: e3d-online.com \& mahor.xyz)
+    
+Text
