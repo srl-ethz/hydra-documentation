@@ -11,7 +11,6 @@ The framework of the printer is built up on the **Rat Rig V-Core 3** by Rat Rig 
 
 .. figure:: img/RatRig.png
     :align: right
-    :figwidth: 200px
 
     The default Rat Rig V-core 3 System (Source: www.ratrig.com)
 
