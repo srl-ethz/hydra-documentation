@@ -4,8 +4,10 @@ What is a Haydra MK 1?
 
 The Hydra MK1 is an open source project that aims to bring multi-material printing of exotic materials to research facilities and individuals worldwide. It has the possibility to connect up to four printing heads or other attachments. In the standard configuration it uses two filament printing heads, as well as two pellet extruders.
 
+.. raw:: html
+  <embed>
 
-<style>
+  <style>
   #wrapper{
     width: 100%;
     display: grid;
@@ -20,8 +22,8 @@ The Hydra MK1 is an open source project that aims to bring multi-material printi
     grid-column: 2 / 3;
     grid-row: 1;
   }
-</style>
-<section id="wrapper">
+  </style>
+  <section id="wrapper">
   <div class="test-img">
     <img src="img/RatRig.png" width=100%;/>
   </div>
@@ -35,4 +37,4 @@ The Hydra MK1 is an open source project that aims to bring multi-material printi
     - yeah ok terrible.
     </div>
   </section>
-j
+  </embed>
