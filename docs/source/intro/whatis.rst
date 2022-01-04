@@ -18,8 +18,6 @@ The Hydra MK1 is an open source project that aims to bring multi-material printi
 
 |
 
-|
-
 ----------------------------
 
 .. rst-class::  clear-both
