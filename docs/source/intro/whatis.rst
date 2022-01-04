@@ -6,6 +6,7 @@ The Hydra MK1 is an open source project that aims to bring multi-material printi
 
 .. image:: img/Extruders.png
    :alt: Left floating image
+   :figwidth: 300px
    :class: with-shadow float-left
 
 Some text ... (will be displayed on the right of the image)
@@ -14,6 +15,7 @@ Some text ... (will be displayed on the right of the image)
 
 .. image:: img/Extruders.png
    :alt: Left floating image
+   :figwidth: 300px
    :class: with-shadow float-left
 
 Some text ... (will be displayed on the right of the image)
