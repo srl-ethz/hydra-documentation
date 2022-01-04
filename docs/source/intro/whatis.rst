@@ -6,6 +6,6 @@ The Hydra MK1 is an open source project that aims to bring multi-material printi
 
 .. raw:: html
   <embed>
-  <img src="img/RatRig.png">
+    <img src="img/RatRig.png">
   </embed>
 
