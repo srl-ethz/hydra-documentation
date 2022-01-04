@@ -10,11 +10,16 @@ The Hydra MK1 is an open source project that aims to bring multi-material printi
    :alt: Left floating image
    :class: with-shadow float-left
 
-|Some text ... (will be displayed on the right of the image)
+| Some text ... (will be displayed on the right of the image)
+
 |
+
 |
+
 |
+
 |
+
 ----------------------------
 
 .. rst-class::  clear-both
