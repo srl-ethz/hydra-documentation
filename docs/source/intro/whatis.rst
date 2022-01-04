@@ -25,7 +25,7 @@ The Hydra MK1 is an open source project that aims to bring multi-material printi
   </style>
   <section id="wrapper">
   <div class="test-img">
-    <img src="/img/RatRig.png" width=100%;/>
+    <img src="img/RatRig.png" width=100%;/>
   </div>
   <div class="test-text">
     This is it huh. The beautiful text of the year that goes right next to the image. I can't believe it.
