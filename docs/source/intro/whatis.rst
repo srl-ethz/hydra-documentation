@@ -23,7 +23,7 @@ grid-row: 1;
 </style>
 <section id="wrapper">
 <div class="test-img">
-<img src="test.png" width=100%;/>
+<img src="img/RatRig.png" width=100%;/>
 </div>
 <div class="test-text">
 This is it huh. The beautiful text of the year that goes right next to the image. I can't believe it.
