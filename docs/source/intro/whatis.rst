@@ -14,9 +14,7 @@ Some text ... (will be displayed on the right of the image)
 
 .. rst-class::  clear-both
 
-Left?
 
-|
 .. figure:: img/Extruders.png
    :figwidth: 300px
    :alt: Left floating image
