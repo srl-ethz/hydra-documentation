@@ -16,7 +16,8 @@ Heating Element
    :alt: Left floating image
    :align: left
 
-Prepare the heat cartridge, the thermistor and the silicone tube
+
+| Remove the hex nut and the heater block from the hot end
 
 | 
 
@@ -31,11 +32,12 @@ Prepare the heat cartridge, the thermistor and the silicone tube
    :alt: Left floating image
    :align: left
 
-| Remove the hex nut and the heater block from the hot end
+
+| Prepare the heat cartridge, the thermistor and the silicone tube
 
 | 
 
-| 
+|
 
 | 
 
@@ -63,7 +65,23 @@ Prepare the heat cartridge, the thermistor and the silicone tube
    :alt: Left floating image
    :align: left
 
-| Carefully clamp the heat cartridge using a SIZE screw
+| Make sure the heatcartridge is flush with the bottom of the heater block.
+
+|
+
+| 
+
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet6.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Carefully clamp the heat cartridge using a SIZE screw.
 
 | 
 
@@ -73,7 +91,7 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 
 ----------------------------
 
-.. figure:: img/Pellet6.jpg
+.. figure:: img/Pellet7.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
@@ -86,11 +104,9 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 
 | 
 
-
-
 ----------------------------
 
-.. figure:: img/Pellet7.jpg
+.. figure:: img/Pellet9.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
@@ -107,27 +123,59 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 
 ----------------------------
 
-.. figure:: img/Pellet8.jpg
+.. figure:: img/Pellet10.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
 
-| Reinstall the heating block and hex nut on the hotend
+| Cover the heater block with the silicone tube.
 
 | 
 
 | 
 
 | 
+
+|
 
 ----------------------------
 
-.. figure:: img/Pellet9.jpg
+.. figure:: img/Pellet11.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
 
-| Add the silicone tube around the heater block
+| Make sure the silicone sock is flush with the lower side of the heater block.
+
+| 
+
+| 
+
+|
+
+----------------------------
+
+.. figure:: img/Pellet12.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Carefully reinstall the heater block on the Pellet Extruder.
+
+| 
+
+| 
+
+|
+
+----------------------------
+
+.. figure:: img/Pellet13.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Tighten the heater block in place with the hex nut.
 
 | 
 
@@ -143,7 +191,7 @@ Pellet Parking Spot
 ===================
 
 
-.. figure:: img/Pellet10.jpg
+.. figure:: img/Pellet14.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
@@ -154,13 +202,11 @@ Pellet Parking Spot
 
 |
 
-| 
-
 ----------------------------
 
-.. figure:: img/Pellet11.jpg
+.. figure:: 
    :figwidth: 320px
-   :alt: Left floating image
+   :alt: TBD
    :align: left
 
 |Screw the two pins into the pellet_bracket. If the fit is too tight carefully loosen up the outer hole with a 4mm drill bit. 
@@ -173,9 +219,9 @@ Pellet Parking Spot
 
 ----------------------------
 
-.. figure:: img/Pellet12.jpg
+.. figure:: 
    :figwidth: 320px
-   :alt: Left floating image
+   :alt: TBD
    :align: left
 
 | Insert two M3 locking nuts into the pellet_parking part
@@ -187,10 +233,10 @@ Pellet Parking Spot
 |
 
 ----------------------------
-•	
-.. figure:: img/Pellet13.jpg
+
+.. figure:: 
    :figwidth: 320px
-   :alt: Left floating image
+   :alt: TBD
    :align: left
 
 | Tighten the pellet_bracket to the pellet_parking part using the two M3 x LENGTH screws.
@@ -203,9 +249,9 @@ Pellet Parking Spot
 
 ----------------------------
 
-.. figure:: img/Pellet14.jpg
+.. figure:: 
    :figwidth: 320px
-   :alt: Left floating image
+   :alt: TBD
    :align: left
 
 | Carefully tap an M3 thread into the plastic part using the M3 x 5 screw.
@@ -218,9 +264,9 @@ Pellet Parking Spot
 
 ----------------------------
 
-.. figure:: img/Pellet15.jpg
+.. figure:: 
    :figwidth: 320px
-   :alt: Left floating image
+   :alt: TBD
    :align: left
 
 | Push in the magnet until it is up against the outer plastig holding it in place.
@@ -237,7 +283,7 @@ Pellet Parking Spot
 Receiving Bracket
 ==================
 
-.. figure:: img/Pellet16.jpg
+.. figure:: img/Pellet14.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
@@ -250,10 +296,9 @@ Receiving Bracket
 
 |
 
-
 ----------------------------
 
-.. figure:: img/Pellet17.jpg
+.. figure:: img/Pellet15.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
@@ -269,7 +314,7 @@ Receiving Bracket
 
 ----------------------------
 
-.. figure:: img/Pellet18.jpg
+.. figure:: img/Pellet17.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
@@ -285,7 +330,7 @@ Receiving Bracket
 
 ----------------------------
 
-.. figure:: img/Pellet19.jpg
+.. figure:: img/Pellet18.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
@@ -297,7 +342,6 @@ Receiving Bracket
 | 
 
 |
-
 
 ----------------------------
 
@@ -317,12 +361,166 @@ Receiving Bracket
 
 ----------------------------
 
+.. figure:: img/Pellet16.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Unscrew the two parts and set the aside for future steps.
+
+|
+
+| 
+
+| 
+
+
+
+----------------------------
+	
+Body Assembly
+=============
+
 .. figure:: img/Pellet21.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
 
-| Unscrew the two parts
+| Prepare the two parts of the “pellet_receiver”, the “pellet_fan_grate”, the “pellet_guide”, the cut and predrilled steel strip, and the two outer aluminium brackets of the pellet head including the screws, that held it down.
+
+|
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet22.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Remove the aluminium grate from the pellet extruder.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet24.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Add the “pellet_fan_grate” using the screws you just removed.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+	
+.. figure:: img/Pellet25.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| On the otherside insert two M3xLENGTH screws. Do not tighten the yet.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet27.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Align the "pellet_guide" using the two upper screws and fasten it down using all three screws.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet28.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place the pellet extruder on its side, so the pellet guide is facing the right, and the heater cables are facing the left.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet29.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place the “pellet_bracket_A” (the one with the cable brace) on the side of the extruder. 
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet30.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place one of the outer aluminium brackets on top of the pellet_bracket_A.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet31.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place the steel strip on top of the aluminium bracket.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet32.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Insert the M3 screws. Do not tighten yet.
 
 |
 
@@ -331,58 +529,392 @@ Receiving Bracket
 | 
 
 |
-
 
 ----------------------------
 	
-
-
-•	Prepare the two parts of the “pellet_receiver”, the “pellet_fan_grate”, the “pellet_guide”, the cut and predrilled steel strip, and the two outer aluminium brackets of the pellet head including the screws, that held it down.
-•	Place the “pellet_bracket_A” (the one with the cable brace) on the side of the extruder. Please note the orientation of the extruder, with the opening for the pellets facing to the right, and the heater cables to the left.
-•	Place one of the outer aluminium brackets on top of the pellet_bracket_A
-•	Place the steel strip on top of the aluminium bracket
-•	Insert the M3 screws. Do not tighten yet
-•	Insert two aluminium spacers and the other two M3 screws. Do not tighten yet.
-•	Push the pellet_bracket_A all the way up against the motor and tighten down the two upper M3 screws. This is essential for a good fit with the parking spot once installed on the printer.
-•	Tighten the other two screws.
-•	Turn the extruder around.
-•	Place the “pellet_bracket_B” on the extruder.
-•	Place the other outer aluminium brackets on top of the pellet_bracket_B. Make sure the cables are guided inside of the lower part of the aluminium bracket.
-•	Insert the M3 standoffs. Do not tighten yet
-•	Insert two aluminium spacers and the other two M3 standoffs. Do not tighten yet.
-•	Push the pellet_bracket_B all the way up against the motor and tighten down the two upper M3 standoffs. (TIP: if you don’t have a wrench handy, insert a short M3 screw into the standoffs and use it to tighten them down.)
-•	Tighten the other two standoffs.
-•	Note: there should be no gap between the motor and the bracket.
-•	Remove the aluminium grate from the pellet extruder
-•	Add the “pellet_fan_grate” using the screws you just removed
-•	Fasten the “pellet_guide” on the other side
-
-
-
-•	Prepare the “pellet_fan_shroud”, the “pellet_fan_guide”, the two fans, and seven M3 LENGTH screws.
-•	Insert the “pellet_fan_shroud” into the turbo/print fan.
-•	Fasten the print fan to the extruder using 3 M3 LENGTH screws.
-•	Take the “pellet_fan_guide” and rout the print fan cable and hot end cables through the notches.
-•	Place the fan guide on the extruder making sure the cable is facing upwards
-•	Place the fan on the fan guide and fasten using 4 M3 LENGTH screws.
-
-
-•	Prepare the “pellet_plate”, the M3 screw that were inserted into the standoffs, and the E3D Toolplate including its 6 mounting screws.
-•	Tap into the plastic part using an M3 screw. (We recommend to use a caphead screw to this to avoid damaging the screw/allen key)
-•	Insert the M3 screws from the pellet extruder in the pellet_plate
-•	Place the toolplate on the pellet_plate and fasten it using the tapped holes and screws provided by E3D.
-•	Fasten the plates onto the extruder using the standoffs. 
-
-
-
-.. rst-class::  clear-both
-
-.. figure:: img/Extruders.png
-   :figwidth: 300px
+.. figure:: img/Pellet33.jpg
+   :figwidth: 320px
    :alt: Left floating image
-   :class: with-shadow float-left
+   :align: left
 
-Some text ... (will be displayed on the right of the image)
+| Insert two aluminium spacers and the other two M3 screws. Do not tighten yet.
 
-.. rst-class::  clear-both
+|
 
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet35.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Push the pellet_bracket_A all the way up against the motor and tighten down the two upper M3 screws. This is essential for a good fit with the parking spot once installed on the printer.
+
+|
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet36.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Tighten the other two screws.
+
+|
+
+| 
+
+|
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet37.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| For future steps make sure the heater cables are tucked inside the aluminium bracket.
+
+| 
+
+| 
+
+|
+
+----------------------------
+
+.. figure:: img/Pellet38.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Turn the extruder around.
+
+|
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet39.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place the “pellet_bracket_B” on the extruder.
+
+|
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet40.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place the other outer aluminium brackets on top of the pellet_bracket_B. Make sure the heater cables are still guided inside of the lower part of the aluminium bracket.
+
+|
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet41.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Insert the M3 standoffs. Do not tighten yet.
+
+|
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet42.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Insert two aluminium spacers and the other two M3 standoffs. Do not tighten yet.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet43.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Push the pellet_bracket_B all the way up against the motor and tighten down the two upper M3 standoffs. 
+
+|
+
+|
+
+|
+
+----------------------------
+
+.. figure:: img/Pellet44.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Tighten the other two standoffs. (TIP: if you don’t have a wrench handy, insert a short M3 screw into the standoffs and use it to tighten them down.)
+
+|
+
+|
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet45.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Tighten the two M3 screws inside the pellet bracket.
+
+|
+
+| 
+
+| 
+
+----------------------------
+	
+.. figure:: img/Pellet46.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Note: there should be no gap between the motor and the bracket.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+Fans
+======
+
+.. figure:: img/Pellet47.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Prepare the “pellet_fan_shroud”, the “pellet_fan_guide”, the two fans, and seven M3 LENGTH screws.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet48.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Insert the “pellet_fan_shroud” into the turbo/print fan.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet50.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Fasten the print fan to the extruder using three M3 LENGTH screws.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet51.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Take the “pellet_fan_guide” and rout the print fan cable and hot end cables through the notches.
+
+|
+
+| 
+
+| 
+
+--------------------------
+	
+.. figure:: img/Pellet52.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place the fan guide on the extruder.
+
+|
+
+|
+
+| 
+
+| 
+
+----------------------------
+	
+.. figure:: img/Pellet54.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place the fan on the fan guide making sure the cable is facing upwards and fasten using 4 M3 LENGTH screws.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+Receiver Plate
+==============
+
+.. figure:: img/Pellet56.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Prepare the “pellet_plate”, the M3 screw that were inserted into the standoffs, and the E3D Toolplate including its 6 mounting screws.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet57.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Tap into the plastic part using an M3 screw. (We recommend to use a caphead screw to this to avoid damaging the screw/allen key)
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet58.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Insert the M3 screws from the pellet extruder in the pellet_plate.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet60.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place the toolplate on the pellet_plate and fasten it using the tapped holes and screws provided by E3D.
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet61.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Fasten the plates onto the extruder using the standoffs. 
+
+|
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet62a.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Congratulations! Your Pellet Extruder V4 is ready to be mounted on the Hydra MK1.
+
+|
+
+| 
+
+| 
+
+----------------------------
