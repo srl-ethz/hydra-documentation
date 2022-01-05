@@ -143,20 +143,198 @@ Pellet Parking Spot
 ===================
 
 
-•	Prepare the printed part “pellet_parking”, the machined part “pellet_bracket”, two pins from the E3D Toolchanger, two M3 locking nuts, two M3 x LENGTH screws, and one M3 x 5 screw, magnet.
-•	Screw the two pins into the pellet_bracket. If the fit is too tight carefully loosen up the outer hole with a 4mm drill bit.
-•	Insert two M3 locking nuts into the pellet_parking part
-•	Tighten the pellet_bracket to the pellet_parking part using the two M3 x LENGTH screws.
-•	Carefully tap an M3 thread into the plastic part using the M3 x 5 screw.
-•	Push in the magnet until it is up against the outer plastig holding it in place.
+.. figure:: img/Pellet10.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Prepare the printed part “pellet_parking”, the machined part “pellet_bracket”, two pins from the E3D Toolchanger, two M3 locking nuts, two M3 x LENGTH screws, and one M3 x 5 screw, magnet.
+
+| 
+
+|
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet11.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+|Screw the two pins into the pellet_bracket. If the fit is too tight carefully loosen up the outer hole with a 4mm drill bit. 
+
+| 
+
+|
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet12.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Insert two M3 locking nuts into the pellet_parking part
+
+| 
+
+| 
+
+|
+
+----------------------------
+•	
+.. figure:: img/Pellet13.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Tighten the pellet_bracket to the pellet_parking part using the two M3 x LENGTH screws.
+
+| 
+
+|
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet14.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Carefully tap an M3 thread into the plastic part using the M3 x 5 screw.
+
+| 
+
+|
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet15.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Push in the magnet until it is up against the outer plastig holding it in place.
+
+| 
+
+| 
+
+|
 
 
-•	Prepare two M3 locking nuts, two M3 LENGTH screw, one M3 x 5 screw, and the two parts of the “pellet_receiver”.
-•	Insert one M3 locking nut into each of the two pieces of the “pellet_receiver” part.
-•	Place both parts upside down on a flat surface and join them using two M3 LENGTH screws
-•	Using a 4mm drill bit carefully widen the receiver holes for the pins. Constantly check the fit using the already assembled parking spot
-•	Carefully tap an M3 thread into the plastic part using the M3 x 5 screw.
-•	Unscrew the two parts
+----------------------------
+
+Receiving Bracket
+==================
+
+.. figure:: img/Pellet16.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Prepare two M3 locking nuts, two M3 LENGTH screw, one M3 x 5 screw, and the two parts of the “pellet_receiver”.
+
+| 
+
+| 
+
+|
+
+
+----------------------------
+
+.. figure:: img/Pellet17.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Insert one M3 locking nut into each of the two pieces of the “pellet_receiver” part.
+
+| 
+
+| 
+
+|
+
+
+----------------------------
+
+.. figure:: img/Pellet18.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Place both parts upside down on a flat surface and join them using two M3 LENGTH screws
+
+| 
+
+| 
+
+|
+
+
+----------------------------
+
+.. figure:: img/Pellet19.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Using a 4mm drill bit carefully widen the receiver holes for the pins. Constantly check the fit using the already assembled parking spot
+
+| 
+
+| 
+
+|
+
+
+----------------------------
+
+.. figure:: img/Pellet20.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Carefully tap an M3 thread into the plastic part using the M3 x 5 screw.
+
+| 
+
+| 
+
+|
+
+
+----------------------------
+
+.. figure:: img/Pellet21.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Unscrew the two parts
+
+|
+
+| 
+
+| 
+
+|
+
+
+----------------------------
+	
 
 
 •	Prepare the two parts of the “pellet_receiver”, the “pellet_fan_grate”, the “pellet_guide”, the cut and predrilled steel strip, and the two outer aluminium brackets of the pellet head including the screws, that held it down.
