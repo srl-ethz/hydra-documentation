@@ -80,6 +80,7 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 
 | Insert the thermistor (It makes sense to check the thermistor by mearing its resistance. It should be around VALUE)
 
+|
 
 | 
 
