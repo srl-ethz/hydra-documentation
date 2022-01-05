@@ -11,15 +11,14 @@ In case your pellet extruder came preassembled please disassemble it until it lo
 Heating Element
 ===============
 
-
 .. figure:: img/Pellet2.png
    :figwidth: 320px
    :width: 300px
    :alt: Left floating image
    :class: with-shadow float-left
 
-.. note:: Prepare the heat cartridge, the thermistor and the silicone tube
-
+Step 1
+   Prepare the heat cartridge, the thermistor and the silicone tube
 
 | 
 
