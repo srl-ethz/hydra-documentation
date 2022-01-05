@@ -15,10 +15,9 @@ Heating Element
    :figwidth: 320px
    :width: 300px
    :alt: Left floating image
-   :class: with-shadow float-left
+   :align: left
 
-Step 1
-   Prepare the heat cartridge, the thermistor and the silicone tube
+Prepare the heat cartridge, the thermistor and the silicone tube
 
 | 
 
