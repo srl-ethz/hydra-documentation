@@ -14,11 +14,10 @@ Heating Element
 
 .. figure:: img/Pellet2.png
    :figwidth: 300px
-   :margin: 10px
    :alt: Left floating image
    :class: with-shadow float-left
 
-| Prepare the heat cartridge, the thermistor and the silicone tube
+|    Prepare the heat cartridge, the thermistor and the silicone tube
 
 | 
 
@@ -48,8 +47,7 @@ Heating Element
    :alt: Left floating image
    :class: with-shadow float-left
 
-| :margin: 10px
-Insert the heat cartridge
+| Insert the heat cartridge
 
 | 
 
