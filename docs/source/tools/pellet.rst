@@ -19,11 +19,11 @@ Heating Element
 
 | Prepare the heat cartridge, the thermistor and the silicone tube
 
-| y
+| 
 
-| y
+| 
 
-| y
+| 
 
 ----------------------------
 
@@ -34,11 +34,11 @@ Heating Element
 
 | Remove the hex nut and the heater block from the hot end
 
-| y
+| 
 
-| y
+| 
 
-| y
+| 
 
 ----------------------------
 
@@ -49,17 +49,15 @@ Heating Element
 
 | Insert the heat cartridge
 
-| y
+| 
 
-| y
+| 
 
-| y
+| 
 
 ----------------------------
 
-•	
-•	
-•	
+
 •	Carefully clamp the heat cartridge using a SIZE screw
 •	Insert the thermistor (It makes sense to check the thermistor by mearing its resistance. It should be around VALUE)
 •	Carefully clamp the thermistor
