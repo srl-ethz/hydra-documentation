@@ -18,7 +18,9 @@ Heating Element
    :alt: Left floating image
    :class: with-shadow float-left
 
-|\   Prepare the heat cartridge, the thermistor and the silicone tube
+.. topic:: Step 1
+    Prepare the heat cartridge, the thermistor and the silicone tube
+
 
 | 
 
