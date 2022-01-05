@@ -37,6 +37,8 @@ Heating Element
 
 | 
 
+|
+
 | 
 
 ----------------------------
@@ -69,7 +71,6 @@ Heating Element
 
 | 
 
-| 
 
 | 
 
@@ -80,7 +81,7 @@ Heating Element
    :alt: Left floating image
    :align: left
 
-| Carefully clamp the heat cartridge using a SIZE screw
+| Carefully clamp the heat cartridge using a SIZE screw.
 
 | 
 
@@ -102,8 +103,6 @@ Heating Element
 | 
 
 | 
-
-
 
 ----------------------------
 
@@ -137,6 +136,8 @@ Heating Element
 
 | 
 
+|
+
 ----------------------------
 
 .. figure:: img/Pellet11.jpg
@@ -168,8 +169,6 @@ Heating Element
 | 
 
 |
-
-| 
 
 ----------------------------
 
@@ -204,8 +203,6 @@ Pellet Parking Spot
 | 
 
 |
-
-| 
 
 ----------------------------
 
@@ -299,9 +296,6 @@ Receiving Bracket
 
 | 
 
-|
-
-
 ----------------------------
 
 .. figure:: img/Pellet15.jpg
@@ -346,9 +340,6 @@ Receiving Bracket
 | 
 
 | 
-
-|
-
 
 ----------------------------
 
@@ -399,9 +390,8 @@ Body Assembly
 
 | 
 
-| 
-
 ----------------------------
+
 .. figure:: img/Pellet22.jpg
    :figwidth: 320px
    :alt: Left floating image
@@ -477,6 +467,7 @@ Body Assembly
 | 
 
 ----------------------------
+
 .. figure:: img/Pellet29.jpg
    :figwidth: 320px
    :alt: Left floating image
@@ -535,6 +526,8 @@ Body Assembly
 
 | 
 
+|
+
 ----------------------------
 	
 .. figure:: img/Pellet33.jpg
@@ -563,8 +556,6 @@ Body Assembly
 
 | 
 
-| 
-
 ----------------------------
 
 .. figure:: img/Pellet36.jpg
@@ -577,6 +568,8 @@ Body Assembly
 |
 
 | 
+
+|
 
 | 
 
@@ -621,6 +614,8 @@ Body Assembly
 
 |
 
+|
+
 | 
 
 | 
@@ -648,6 +643,8 @@ Body Assembly
    :align: left
 
 | Insert the M3 standoffs. Do not tighten yet.
+
+|
 
 |
 
@@ -683,8 +680,6 @@ Body Assembly
 
 | 
 
-| 
-
 ----------------------------
 
 .. figure:: img/Pellet44.jpg
@@ -695,8 +690,6 @@ Body Assembly
 | Tighten the other two standoffs. (TIP: if you don’t have a wrench handy, insert a short M3 screw into the standoffs and use it to tighten them down.)
 
 |
-
-| 
 
 | 
 
