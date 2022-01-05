@@ -2,12 +2,64 @@
 Pellet Extruder V4
 ################################
 
-•	In case your pellet extruder came preassembled please disassemble it until it looks like the one in this image. This can be done intuitively or by following this build guide backwards (skipping a few steps in the process)
+In case your pellet extruder came preassembled please disassemble it until it looks like the one in this image. This can be done intuitively or by following several steps of this build guide backwards.
+
+.. figure:: img/Pellet1.png
+   :figwidth: 300px
+   :align: center
+   
+Heating Element
+===============
 
 
-•	Prepare the heat cartridge, the thermistor and the silicone tube
-•	Remove the hex nut and the heater block from the hot end
-•	Insert the heat cartridge
+.. figure:: img/Pellet2.png
+   :figwidth: 300px
+   :alt: Left floating image
+   :class: with-shadow float-left
+
+| Prepare the heat cartridge, the thermistor and the silicone tube
+
+| y
+
+| y
+
+| y
+
+----------------------------
+
+.. figure:: img/Pellet3.png
+   :figwidth: 300px
+   :alt: Left floating image
+   :class: with-shadow float-left
+
+| Remove the hex nut and the heater block from the hot end
+
+| y
+
+| y
+
+| y
+
+----------------------------
+
+.. figure:: img/Pellet4.png
+   :figwidth: 300px
+   :alt: Left floating image
+   :class: with-shadow float-left
+
+| Insert the heat cartridge
+
+| y
+
+| y
+
+| y
+
+----------------------------
+
+•	
+•	
+•	
 •	Carefully clamp the heat cartridge using a SIZE screw
 •	Insert the thermistor (It makes sense to check the thermistor by mearing its resistance. It should be around VALUE)
 •	Carefully clamp the thermistor
@@ -68,20 +120,6 @@ Pellet Extruder V4
 •	Fasten the plates onto the extruder using the standoffs. 
 
 
-.. figure:: img/Extruders.png
-   :figwidth: 300px
-   :alt: Left floating image
-   :class: with-shadow float-left
-
-| Some text ... (will be displayed on the right of the image)
-
-|
-
-|
-
-|
-
-----------------------------
 
 .. rst-class::  clear-both
 
