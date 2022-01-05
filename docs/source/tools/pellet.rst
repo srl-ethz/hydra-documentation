@@ -5,7 +5,7 @@ Pellet Extruder V4
 In case your pellet extruder came preassembled please disassemble it until it looks like the one in this image. This can be done intuitively or by following several steps of this build guide backwards.
 
 .. figure:: img/Pellet1.png
-   :figwidth: 300px
+   :figwidth: 00px
    :align: center
    
 Heating Element
@@ -14,6 +14,7 @@ Heating Element
 
 .. figure:: img/Pellet2.png
    :figwidth: 300px
+   :margin: 10px
    :alt: Left floating image
    :class: with-shadow float-left
 
@@ -47,7 +48,8 @@ Heating Element
    :alt: Left floating image
    :class: with-shadow float-left
 
-| Insert the heat cartridge
+| :margin: 10px
+Insert the heat cartridge
 
 | 
 
