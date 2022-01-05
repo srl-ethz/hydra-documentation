@@ -4,14 +4,14 @@ Pellet Extruder V4
 
 In case your pellet extruder came preassembled please disassemble it until it looks like the one in this image. This can be done intuitively or by following several steps of this build guide backwards.
 
-.. figure:: img/Pellet1.png
+.. figure:: img/Pellet1.jpg
    :figwidth: 400px
    :align: center
    
 Heating Element
 ===============
 
-.. figure:: img/Pellet2.png
+.. figure:: img/Pellet2.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
@@ -26,7 +26,7 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 
 ----------------------------
 
-.. figure:: img/Pellet3.png
+.. figure:: img/Pellet3.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
@@ -41,10 +41,10 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 
 ----------------------------
 
-.. figure:: img/Pellet4.png
-   :figwidth: 300px
+.. figure:: img/Pellet4.jpg
+   :figwidth: 320px
    :alt: Left floating image
-   :class: with-shadow float-left
+   :align: left
 
 | Insert the heat cartridge
 
@@ -56,12 +56,84 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 
 ----------------------------
 
+.. figure:: img/Pellet5.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
 
-•	Carefully clamp the heat cartridge using a SIZE screw
-•	Insert the thermistor (It makes sense to check the thermistor by mearing its resistance. It should be around VALUE)
-•	Carefully clamp the thermistor
-•	Reinstall the heating block and hex nut on the hotend
-•	Add the silicone tube around the heater block
+| Carefully clamp the heat cartridge using a SIZE screw
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet6.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Insert the thermistor (It makes sense to check the thermistor by mearing its resistance. It should be around VALUE)
+
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet7.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Carefully clamp the thermistor
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet8.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Reinstall the heating block and hex nut on the hotend
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Pellet9.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+| Add the silicone tube around the heater block
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+Pellet Parking Spot
+===================
 
 
 •	Prepare the printed part “pellet_parking”, the machined part “pellet_bracket”, two pins from the E3D Toolchanger, two M3 locking nuts, two M3 x LENGTH screws, and one M3 x 5 screw, magnet.
