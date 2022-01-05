@@ -48,6 +48,8 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 
 | Insert the heat cartridge
 
+|
+
 | 
 
 | 
@@ -83,7 +85,7 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 
 | 
 
-| 
+
 
 ----------------------------
 
@@ -97,6 +99,8 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 | 
 
 | 
+
+|
 
 | 
 
@@ -127,6 +131,8 @@ Prepare the heat cartridge, the thermistor and the silicone tube
 | 
 
 | 
+
+|
 
 | 
 
