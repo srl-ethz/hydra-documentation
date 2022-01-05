@@ -153,8 +153,6 @@ Heating Element
 
 |
 
-| 
-
 ----------------------------
 
 .. figure:: img/Pellet12.jpg
@@ -296,6 +294,8 @@ Receiving Bracket
 
 | 
 
+|
+
 ----------------------------
 
 .. figure:: img/Pellet15.jpg
@@ -340,6 +340,8 @@ Receiving Bracket
 | 
 
 | 
+
+|
 
 ----------------------------
 
@@ -586,6 +588,8 @@ Body Assembly
 
 | 
 
+|
+
 ----------------------------
 
 .. figure:: img/Pellet38.jpg
@@ -633,8 +637,6 @@ Body Assembly
 
 | 
 
-| 
-
 ----------------------------
 
 .. figure:: img/Pellet41.jpg
@@ -678,7 +680,9 @@ Body Assembly
 
 |
 
-| 
+|
+
+|
 
 ----------------------------
 
@@ -764,6 +768,7 @@ Fans
    :align: left
 
 | Fasten the print fan to the extruder using three M3 LENGTH screws.
+
 |
 
 | 
@@ -793,6 +798,8 @@ Fans
    :align: left
 
 | Place the fan guide on the extruder.
+
+|
 
 |
 
