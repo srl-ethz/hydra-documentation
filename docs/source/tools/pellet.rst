@@ -5,7 +5,7 @@ Pellet Extruder V4
 In case your pellet extruder came preassembled please disassemble it until it looks like the one in this image. This can be done intuitively or by following several steps of this build guide backwards.
 
 .. figure:: img/Pellet1.png
-   :figwidth: 00px
+   :figwidth: 400px
    :align: center
    
 Heating Element
@@ -17,7 +17,9 @@ Heating Element
    :alt: Left floating image
    :class: with-shadow float-left
 
-|    Prepare the heat cartridge, the thermistor and the silicone tube
+.. admonition:: Step 1
+
+   Prepare the heat cartridge, the thermistor and the silicone tube
 
 | 
 
