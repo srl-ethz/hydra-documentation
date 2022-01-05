@@ -13,7 +13,8 @@ Heating Element
 
 
 .. figure:: img/Pellet2.png
-   :figwidth: 300px
+   :figwidth: 320px
+   :width: 300px
    :alt: Left floating image
    :class: with-shadow float-left
 
