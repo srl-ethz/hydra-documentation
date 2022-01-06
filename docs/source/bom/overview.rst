@@ -31,6 +31,7 @@ Add leveling feet for the workbench	                                      No
 
 The toolchanger parts can be ordered directly from the E3D online store or locally sourced. Note: If you're using a different tool configuration, you do not need to order an E3D Hemera.
 
+
 +---------------------------+-----------+----------------------------------------------------------------------------------+
 | Item                      | Amount    | Ordering Link                                                                    |
 +===========================+===========+==================================================================================+
@@ -40,6 +41,7 @@ The toolchanger parts can be ordered directly from the E3D online store or local
 +---------------------------+-----------+----------------------------------------------------------------------------------+
 | Hemera Extruder (24V)		  | 1         | https://e3d-online.com/products/e3d-hemera-direct-kit-1-75mm                     |
 +---------------------------+-----------+----------------------------------------------------------------------------------+
+
 
 ========================= ======= =================================================================================
 Item                      Amount  Ordering Link
