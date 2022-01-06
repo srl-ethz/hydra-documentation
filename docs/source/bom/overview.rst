@@ -5,6 +5,27 @@ Overview
 The frame of the Hydra uses a custom RatRig V-core 3. To simplify the ordering process, the mainboard, a hemera extruder, and a power supply are ordered via RatRig. You can source these parts otherwise, just adapt the ordering selection from RatRig. You can customize the RatRig V-Core by going to the customizer and selecting the following options:
 
 
++------------+------------+-----------+
+| Header 1   | Header 2   | Header 3  |
++============+============+===========+
+| body row 1 | column 2   | column 3  |
++------------+------------+-----------+
+| body row 2 | Cells may span columns.|
++------------+------------+-----------+
+| body row 3 | Cells may  | - Cells   |
++------------+ span rows. | - contain |
+| body row 4 |            | - blocks. |
++------------+------------+-----------+
+
+=====  =====  =======
+  A      B    A and B
+=====  =====  =======
+False  False  False
+True   False  False
+False  True   False
+True   True   True
+=====  =====  =======
+
 +---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
 | Add Endstop Module   Horizontal Limit Switch with 1mt cable & connector   | Yes, add 24V 250Watt Fanless Weho PSU2x Fan   1x40mm Axial Brushless 24V DC & 1x50mm Blower type […]  |
 +---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
