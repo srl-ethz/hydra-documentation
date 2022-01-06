@@ -41,6 +41,12 @@ Hemera Extruder (24V)		  1        https://e3d-online.com/products/e3d-hemera-dir
 
 To mount the Electronics you will need either two or four sheets of PMMA, depending on the size you can process. The sizes noted below are the minimum size required for the parts. It is recommended to order a slightly larger sheet, to cut the geometry accurately.
 
++------------------------+---------------+
+| Two Sheets             | Four sheets   | 
++========================+===============+
+| body row 1, column 1   | column 2      | 
++------------------------+---------------+
+
 ================== ====================
 Two Sheets          Four sheets
 ================== ====================
