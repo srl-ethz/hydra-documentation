@@ -42,6 +42,10 @@ E3D Toolplate		          4          https://e3d-online.com/products/blank-tool-p
 Hemera Extruder (24V)		  1          https://e3d-online.com/products/e3d-hemera-direct-kit-1-75mm
 ========================= ========= =================================================================================
 
+As cable brace (And in the assembly of the Pellet Extruder) a steel band is used. You will need approx. 4m. The dimensions are 0.3mm x 11mm. If you can't find these exact dimensions, you will have to adapt some of the 3D printed parts.
+
+If you want to use the Pellet Extruder V4, you can order it _`here <https://mahor.xyz/producto/v4-pellet-extruder/>`_ . Please select the 24V, 70W Version.
+
 Electronics
 ===========
 
@@ -110,5 +114,12 @@ Cableties                  200
 PCB standoffs M3 (8mm)	   20
 ========================= ========= 
 
+To connect the Powersupply to your powergrid, you will need some mains wiring. This should only be done by a certified electrician. You will need the following items:
 
-
+========================= ========= 
+Item                       Amount   
+========================= ========= 
+T12 to C13 Cable           2
+C14 Socket            	   2
+Connector Strip            1
+========================= ========= 
