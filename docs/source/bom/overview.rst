@@ -2,6 +2,9 @@
 Overview
 ################################
 
+Motion System and Toolchanger
+=============================
+
 The frame of the Hydra uses a custom RatRig V-core 3. To simplify the ordering process, the mainboard, a hemera extruder, and a power supply are ordered via RatRig. You can source these parts otherwise, just adapt the ordering selection from RatRig. You can customize the RatRig V-Core by going to the customizer and selecting the following options:
 
 ========================================================================  =====================================================================================================
@@ -39,6 +42,9 @@ E3D Toolplate		          4          https://e3d-online.com/products/blank-tool-p
 Hemera Extruder (24V)		  1          https://e3d-online.com/products/e3d-hemera-direct-kit-1-75mm
 ========================= ========= =================================================================================
 
+Electronics
+===========
+
 To mount the Electronics you will need either two or four sheets of PMMA, depending on the size you can process. The sizes noted below are the minimum size required for the parts. It is recommended to order a slightly larger sheet, to cut the geometry accurately.
 
 +------------------------+---------------------+
@@ -52,3 +58,14 @@ To mount the Electronics you will need either two or four sheets of PMMA, depend
 +                        +---------------------+
 |                        | 300mm x 610mm       | 
 +------------------------+---------------------+
+
+The Hydra MK1 uses three Duet3D boards (listed below) and a Raspberry Pi 3B. The sourcing of these parts will depend on the availability in your country. The Mainboard was selected when ordering the RatRig. The Expansion board can also be ordered from the RatRig webshop.
+
+========================= ========= 
+Item                       Amount   
+========================= ========= 
+Duet3 Mainboard 6HC       1
+Duet3 Expansion 3EXP	    1	
+Duet3 Toolboard	1LC       1 
+Raspberry Pi 3B           1
+========================= ========= 
