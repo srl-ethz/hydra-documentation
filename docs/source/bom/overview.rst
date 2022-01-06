@@ -59,13 +59,56 @@ To mount the Electronics you will need either two or four sheets of PMMA, depend
 |                        | 300mm x 610mm       | 
 +------------------------+---------------------+
 
-The Hydra MK1 uses three Duet3D boards (listed below) and a Raspberry Pi 3B. The sourcing of these parts will depend on the availability in your country. The Mainboard was selected when ordering the RatRig. The Expansion board can also be ordered from the RatRig webshop.
+The Hydra MK1 uses three Duet3D boards (listed below) and a Raspberry Pi 3B. The Rapsberry Pi additionally requires a 5V powersource and optionally an ethernet cable to connect to your PC. The sourcing of these parts will depend on the availability in your country. The Mainboard was selected when ordering the RatRig. The Expansion board can also be ordered from the RatRig webshop. 
+
+=========================== ========= 
+Item                         Amount   
+=========================== ========= 
+Duet3 Mainboard 6HC         1
+Duet3 Expansion 3EXP	      1	
+Duet3 Toolboard	1LC         1 
+Raspberry Pi 3B             1
+Powrsupply (5V)             1
+Ethernet Cable (optional)   1
+=========================== ========= 
+
+To connect the electronics you will need the following lengths of cables. The first table shows the langths for different types of cables. The second tables shows the lengths for different color cables (Stepper cable = back, red, blue, green; Fan cable = black, red; Thermistor cable = white, white; Limit Switch cable = black, red, white; Heater cable = orange, orange; 24V cable = red(24V), black(24V)). The number in brackets represents the needed length incase the stepper cables were not purchased with the RatRig kit.
+
+
+========================= ==================== 
+Cable                     Approx. Length [mm]  
+========================= ==================== 
+Stepper Cable	            650
+Axis Cable	              450
+Fan	                      1000
+Thermistor	              650
+Limit Switches	          300
+Heaters	                  500
+24V Cables	              250
+========================= ==================== 
+
+=============== =====================
+Cable            Approx. Length [mm]
+=============== =====================
+Black            1850
+Red              1850
+Blue             650
+Green            650
+White            1450
+Orange (24V)     1000
+Black (24V)      300
+Red (24V)        300
+=============== =====================
+
+To secure the cables to the PMMA plate you will need several zipties. To secure the different boards, we recommend using M3 8mm standoffs, as these can be used for the toolchanger assembly.
+
 
 ========================= ========= 
 Item                       Amount   
 ========================= ========= 
-Duet3 Mainboard 6HC       1
-Duet3 Expansion 3EXP	    1	
-Duet3 Toolboard	1LC       1 
-Raspberry Pi 3B           1
+Cableties                  200
+PCB standoffs M3 (8mm)	   20
 ========================= ========= 
+
+
+
