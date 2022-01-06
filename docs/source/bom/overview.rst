@@ -44,7 +44,7 @@ Hemera Extruder (24V)		  1          https://e3d-online.com/products/e3d-hemera-d
 
 As cable brace (And in the assembly of the Pellet Extruder) a steel band is used. You will need approx. 4m. The dimensions are 0.3mm x 11mm. If you can't find these exact dimensions, you will have to adapt some of the 3D printed parts.
 
-If you want to use the Pellet Extruder V4, you can order it _`here <https://mahor.xyz/producto/v4-pellet-extruder/>`_ . Please select the 24V, 70W Version.
+If you want to use the Pellet Extruder V4, you can order it `here <https://mahor.xyz/producto/v4-pellet-extruder/>`_ . Please select the 24V, 70W Version.
 
 Electronics
 ===========
