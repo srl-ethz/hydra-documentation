@@ -28,3 +28,25 @@ Add enclosure kit printed parts	                                          -- Ple
 Add Workbench	                                                            No
 Add leveling feet for the workbench	                                      No
 ========================================================================  =====================================================================================================
+
+The toolchanger parts can be ordered directly from the E3D online store or locally sourced. Note: If you're using a different tool configuration, you do not need to order an E3D Hemera.
+
+========================= ======= =================================================================================
+Item                      Amount  Ordering Link
+========================= ======= =================================================================================
+E3D Toolchanger Carriage    1     https://e3d-online.com/products/toolchanger-toolhead?variant=31134333927483
+E3D Toolplate		            4     https://e3d-online.com/products/blank-tool-plate-dock-kit?variant=32570067058747
+Hemera Extruder (24V)		    1     https://e3d-online.com/products/e3d-hemera-direct-kit-1-75mm
+========================= ======= =================================================================================
+
+To mount the Electronics you will need either two or four sheets of PMMA, depending on the size you can process. The sizes noted below are the minimum size required for the parts. It is recommended to order a slightly larger sheet, to cut the geometry accurately.
+
+================== ====================
+Two Sheets          Four sheets
+================== ====================
+600mm x 580mm       300mm x 580mm
+600mm x 610mm       300mm x 580mm
+                    300mm x 610mm
+                    300mm x 610mm
+                    
+================== ====================
