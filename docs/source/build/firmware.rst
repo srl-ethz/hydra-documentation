@@ -101,9 +101,7 @@ Heaters are initialized using the `M950 <https://duet3d.dozuki.com/Wiki/M950>`_ 
 The other tools are defined using the `M563 <https://duet3d.dozuki.com/Wiki/M563>`_ command. P states the tool number, H the heater number, D the extruder number, and F the fan number of the layer fan. Via the S parameter the hotend can be named. The active and passive temperatures are set to 0 using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command.
 Adapt the hotends as you need, swapping out thermistor types, heating outputs, temperature limits, and hotend names. 
 
-.. DANGER:: Red
-
-  The set PID parameters will not match for your hotend, please run PID tuning using the `M303 <https://duet3d.dozuki.com/Wiki/M303>`_ command!
+.. DANGER:: The set PID parameters will not match for your hotend, please run PID tuning using the `M303 <https://duet3d.dozuki.com/Wiki/M303>`_ command!
   
 ::
 
