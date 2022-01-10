@@ -99,7 +99,12 @@ Using the `M208 <https://duet3d.dozuki.com/Wiki/M208>`_ command the axis minima 
 In the next section the heaters are initialised and the tools are defined. The `M308 <https://duet3d.dozuki.com/Wiki/M308>`_ is used to configure the temperature sensors. The S parameter specifies the sensor number, the P parameter sets the input, the Y parameter specifies the sensor type, for T the thermistor resistance at 25°C is entered, and for B the beta value. The sensor is named using the A parameter.
 Heaters are initialized using the `M950 <https://duet3d.dozuki.com/Wiki/M950>`_ command. H defines the heater number, C the output, and T the sensor number. using the `M307 <https://duet3d.dozuki.com/Wiki/M307>`_ command bang-bang control is disabled (in favour of FOPDT) and the PWM limit is set. The heater for the bed is set using the `M140 <https://duet3d.dozuki.com/Wiki/M140>`_ command. The `M143 <https://duet3d.dozuki.com/Wiki/M143>`_ command sets the maximum temperature in the S parameter for the heater H. The heating parameters can be set using the `M307 <https://duet3d.dozuki.com/Wiki/M307>`_ command. These values were found by running the automatic heater tuning with `M303 <https://duet3d.dozuki.com/Wiki/M303>`_ .
 The other tools are defined using the `M563 <https://duet3d.dozuki.com/Wiki/M563>`_ command. P states the tool number, H the heater number, D the extruder number, and F the fan number of the layer fan. Via the S parameter the hotend can be named. The active and passive temperatures are set to 0 using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command.
+Adapt the hotends as you need, swapping out thermistor types, heating outputs, temperature limits, and hotend names. 
 
+.. DANGER:: Red
+
+  The set PID parameters will not match for your hotend, please run PID tuning using the `M303 <https://duet3d.dozuki.com/Wiki/M303>`_ command!
+  
 ::
 
   ;-----------------------------------------------------------------
