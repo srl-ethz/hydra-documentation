@@ -167,6 +167,54 @@ Adapt the hotends as you need, swapping out thermistor types, heating outputs, t
   G10 P3 R0 S0                                        ; set initial temperatures to 0C
   M307 H4 B0 R1.157 C242.7:148.6 D7.43 S1.00 V24.3    ; PID parameters for heater 4
   
+The next section initializes a hotend and a print fan for each tool. The fans are initialized via the `M950 <https://duet3d.dozuki.com/Wiki/M950>`_ command, using the F parameter to set a fan number, C to set the output on the board, and Q to set the PMW frequency.  `M106 <https://duet3d.dozuki.com/Wiki/M106>`_ edits the details of the fan specified in the P parameter. Using the C parameter a name can be set, the S parameter defines the initial speed, H associates the fan with a heater, turning it on at the hotend temperature specified using the T parameter, or disables thermostatic control if set to -1. L defines the minimum speed.
+
+::
+
+  ;--------------------------------------------------------------------
+  ; Fans
+  ;--------------------------------------------------------------------
+
+  ;Hotend 0
+  M950 F0 C"1.out7" Q500                  ; fan 0 on pin out7 of EXP and set frequency
+  M106 P0 C"Hotend Fan 0" S0 H1 T45 L255  ; fan 0 name, thermostatic control for Hotend 1
+  M950 F1 C"1.out4" Q500                  ; fan 1 on pin out4 of EXP and set frequency
+  M106 P1 C"Layer Fan 0" S0 H-1 L255      ; fan 1 name, thermostatic control is turned off
+
+  ;Hotend 1
+  M950 F2 C"out7" Q500                    ; fan 2 on pin out7 and set frequency
+  M106 P2 C"Hotend Fan 1" S0 H2 T45 L255  ; fan 2 name, thermostatic control for Hotend 2
+  M950 F3 C"out4" Q500                    ; fan 3 on pin out4 and set frequency
+  M106 P3 C"Layer Fan 1" S0 H-1 L255      ; fan 3 name, thermostatic control is turned off
+
+  ;Hotend 2
+  M950 F4 C"1.out8" Q500                  ; fan 4 on pin out8 of EXP and set  frequency
+  M106 P4 C"Hotend Fan 2" S0 H3 T45 L255  ; fan 4 name, thermostatic control for Hotend 3
+  M950 F5 C"1.out5" Q500                  ; fan 5 on pin out5 of EXP and set  frequency
+  M106 P5 C"Layer Fan 2" S0 H-1 L255      ; fan 5 name, thermostatic control is turned off
+
+  ;Hotend 3
+  M950 F6 C"1.out6" Q500                  ; fan 6 on pin out6 of EXP and set  frequency
+  M106 P6 C"Hotend Fan 3" S0 H4 T45 L255  ; fan 6 name, thermostatic control for Hotend 4
+  M950 F7 C"1.out3" Q500                  ; fan 7 on pin out3 of EXP and set  frequency
+  M106 P7 C"Layer Fan 3" S0 H-1 L255      ; fan 7 name, thermostatic control is turned off
+
+In the last section the tool offsets are set using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command, where Pspecifies the tool. With the  `M404 <https://duet3d.dozuki.com/Wiki/M404>`_ command the filament width and nozzle diameter are set, and at the end any currently tool is deselected (This won't result in any movement or toolchange, but sets the initial tool to none selected).
+
+::
+
+  ;---------------------------------------------------------------
+  ;Toolparameters
+  ;---------------------------------------------------------------
+
+  ;Define Tooloffsets
+  G10 P0 X21.4 Y-7.9 Z-5.9    ;Set Tool 0 offsets
+  G10 P1 X0 Y0 Z-52.95        ;Set Tool 1 offsets
+  G10 P2 X0 Y0 Z-53.2         ;Set Tool 2 offsets
+  G10 P3 X21.4 Y-7.9 Z-5.7    ;Set Tool 3 offsets
+
+  M404 N1.75 D0.4     ; Filament width and nozzle diameter
+  T-1                 ; Deselect any current tool
 
 Prusa Slicer
 =============
