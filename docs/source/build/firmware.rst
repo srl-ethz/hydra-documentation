@@ -166,6 +166,7 @@ Adapt the hotends as you need, swapping out thermistor types, heating outputs, t
   563 P3 S"HemeraR" D3 H4 F7                          ; define tool 3
   G10 P3 R0 S0                                        ; set initial temperatures to 0C
   M307 H4 B0 R1.157 C242.7:148.6 D7.43 S1.00 V24.3    ; PID parameters for heater 4
+  
 
 Prusa Slicer
 =============
