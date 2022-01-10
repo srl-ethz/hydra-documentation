@@ -96,5 +96,73 @@ Using the `M208 <https://duet3d.dozuki.com/Wiki/M208>`_ command the axis minima 
   M557 X20:360 Y20:335 P5                     ; define 5x5 mesh grid
 
 
+In the next section the heaters are initialised and the tools are defined. The `M308 <https://duet3d.dozuki.com/Wiki/M308>`_ is used to configure the temperature sensors. The S parameter specifies the sensor number, the P parameter sets the input, the Y parameter specifies the sensor type, for T the thermistor resistance at 25°C is entered, and for B the beta value. The sensor is named using the A parameter.
+Heaters are initialized using the `M950 <https://duet3d.dozuki.com/Wiki/M950>`_ command. H defines the heater number, C the output, and T the sensor number. using the `M307 <https://duet3d.dozuki.com/Wiki/M307>`_ command bang-bang control is disabled (in favour of FOPDT) and the PWM limit is set. The heater for the bed is set using the `M140 <https://duet3d.dozuki.com/Wiki/M140>`_ command. The `M143 <https://duet3d.dozuki.com/Wiki/M143>`_ command sets the maximum temperature in the S parameter for the heater H. The heating parameters can be set using the `M307 <https://duet3d.dozuki.com/Wiki/M307>`_ command. These values were found by running the automatic heater tuning with `M303 <https://duet3d.dozuki.com/Wiki/M303>`_ .
+The other tools are defined using the `M563 <https://duet3d.dozuki.com/Wiki/M563>`_ command. P states the tool number, H the heater number, D the extruder number, and F the fan number of the layer fan. Via the S parameter the hotend can be named. The active and passive temperatures are set to 0 using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command.
+
+::
+
+  ;-----------------------------------------------------------------
+  ;Heaters
+  ;-----------------------------------------------------------------
+  ;----------
+  ;Heated bed
+  ;----------
+  M308 S0 P"temp0" Y"thermistor" T100000 B3950 A"Bed" ; configure sensor 0 as thermistor on pin temp0
+  M950 H0 C"out1" T0                          ; bed heater on out1 using sensor 0
+  M307 H0 B0 S1.00                            ; disable bang-bang and set PWM limit
+  M140 H0                                     ; map heated bed to heater 0
+  M143 H0 S110                                ; set temperature limit for heater 0 to 110C
+  M307 H0 B0 R0.322 C500.8 D11.62 S1.00 V24.0 ; PID parameters for heated bed
+
+  ;---------
+  ;Hotend 0
+  ;---------
+  M308 S1 P"1.temp1" Y"thermistor" T100000 B4725 C7.060000e-8 A"Hotend0"  ; configure sensor 1 as thermistor on pin temp1 of EXP
+  M950 H1 C"1.out1" T1        ; nozzle heater 1 on out0 of EXP using sensor 1
+  M307 H1 B0 S1.00            ; disable bang-bang and set PWM limit
+  M143 H1 S250                ; set the maximum temperature in C for heater 1
+
+  M563 P0 S"HemeraL" D0 H1 F1                         ; define tool 0
+  G10 P0 R0 S0                                        ; set initial temperatures to 0C
+  M307 H1 B0 R1.181 C264.4:165.1 D7.45 S1.00 V24.3    ; PID parameters for heater 1
+
+  ;---------
+  ;Hotend 1
+  ;---------
+  M308 S2 P"temp1" Y"thermistor" T100000 B4725 C7.060000e-8 A"Hotend1"  ; configure sensor 2 as thermistor on pin temp1
+  M950 H2 C"out2" T2          ; nozzle heater 2 on out2 using sensor 2
+  M307 H2 B0 S1.00            ; disable bang-bang and set PWM limit
+  M143 H2 S300                ; set the maximum temperature in C for heater 2
+
+  M563 P1 S"PelletheadL" D1 H2 F3                     ; define tool 1 
+  G10 P1 R0 S0                                        ; set initial temperatures to 0C
+  M307 H2 B0 R2.580 C130.0:127.4 D4.92 S1.00 V24.0    ; PID parameters for heater 2
+
+  ;---------
+  ;Hotend 2
+  ;---------
+  M308 S3 P"1.temp2" Y"thermistor" T100000 B4725 C7.060000e-8 A"Hotend2"  ; configure sensor 2 as thermistor on pin temp1
+  M950 H3 C"1.out2" T3        ; nozzle heater 3 output on out2 of EXP using sensor 3
+  M307 H3 B0 S1.00            ; disable bang-bang and set PWM limit
+  M143 H3 S300                ; set the maximum temperature in C for heater 3
+
+  M563 P2 S"PelletheadR" D2 H3 F5                     ; define tool 2
+  G10 P2 R0 S0                                        ; set initial temperatures to 0C
+  M307 H3 B0 R2.580 C143.9:130.8 D6.57 S1.00 V24.3    ; PID parameters for heater 3
+
+
+  ;---------
+  ;Hotend 3
+  ;---------
+  M308 S4 P"1.temp0" Y"thermistor" T100000 B4725 C7.060000e-8 A"Hotend3"  ; configure sensor 3 as thermistor on pin temp0 of EXP
+  M950 H4 C"1.out0" T4        ; nozzle heater on out0 of EXP using sensor 4
+  M307 H4 B0 S1.00            ; disable bang-bang mode for heater 4 and set PWM limit
+  M143 H4 S250                ; set the maximum temperature in C for heater 4
+
+  563 P3 S"HemeraR" D3 H4 F7                          ; define tool 3
+  G10 P3 R0 S0                                        ; set initial temperatures to 0C
+  M307 H4 B0 R1.157 C242.7:148.6 D7.43 S1.00 V24.3    ; PID parameters for heater 4
+
 Prusa Slicer
 =============
