@@ -92,7 +92,7 @@ Heaters	                  500
 ========================= ==================== 
 
 =============== =====================
-Cable            Approx. Length [mm]
+Cable            Approx. Length [cm]
 =============== =====================
 Black            1850
 Red              1850
@@ -104,7 +104,7 @@ Black (24V)      300
 Red (24V)        300
 =============== =====================
 
-To secure the cables to the PMMA plate you will need several zipties. To secure the different boards, we recommend using M3 8mm standoffs, as these can be used for the toolchanger assembly.
+To secure the cables to the PMMA plate you will need several zipties. To secure the different boards, we recommend using 8mm M3 standoffs, as these can be used for the toolchanger assembly. You will also need two 28mm M3 standoffs for the toolchanger assembly.
 
 
 ========================= ========= 
@@ -112,14 +112,16 @@ Item                       Amount
 ========================= ========= 
 Cableties                  200
 PCB standoffs M3 (8mm)	   20
+PCB standoffs M3 (28mm)    2
 ========================= ========= 
 
 To connect the Powersupply to your powergrid, you will need some mains wiring. This should only be done by a certified electrician. You will need the following items:
 
-========================= ========= 
-Item                       Amount   
-========================= ========= 
-T12 to C13 Cable           2
-C14 Socket            	   2
-Connector Strip            1
-========================= ========= 
+============================= ========= 
+Item                           Amount   
+============================= ========= 
+T12 to C13 Cable               2
+C14 Socket            	       2
+Connector Strip                1
+Live, Neutral & Ground wire    ca 60cm
+============================= ========= 
