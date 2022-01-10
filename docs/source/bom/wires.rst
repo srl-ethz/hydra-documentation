@@ -6,15 +6,24 @@ To connect all the electronics you will need to crimp your own wires or order pr
 
 Please crimp the following lengths of wires. For reference on how to crimp the connectors for the duet board, please see the `duet 3D wiring diagrams <https://duet3d.dozuki.com/Wiki/Duet_3_Mainboard_6HC_Wiring_Diagram>`_ or the following pictures.
 
-============== =============== ================
-Part           Component       Wirelength [cm]
-============== =============== ================
-Extruder 0	   Motor	         122
-	             Heater	         121
-	Thermsitor	120
-	Printfan	121
-	Hotendfan	121
-Extruder 1	Motor	130
+
++----------------+-------------------+-------------------+
+| Part           | Component         | Wire Length [cm]  |
++================+===================+===================+
+| Extruder 0	 | Motor	     | 122		 |
++                +-------------------+-------------------+	
+|	         | Heater	     | 121		 |
++                +-------------------+-------------------+
+| 		 | Thermsitor	     | 120		 |
++                +-------------------+-------------------+
+| 		 | Printfan	     | 121		 |
++----------------+-------------------+-------------------+
+| 		 | Hotendfan         | 121		 |
++----------------+-------------------+-------------------+
+| Extruder 1	 | Motor	     | 130		 |
++----------------+-------------------+-------------------+
+
+
 	Heater	129
 	Thermsitor	132
 	Printfan	132
