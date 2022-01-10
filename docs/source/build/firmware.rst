@@ -38,7 +38,7 @@ This first section defines some general features of the printer.
   ;-----------------------------------------------------------------------
   ; Drives
   ;-----------------------------------------------------------------------
-  G4 S1									                              ; Wait for Expansion boards to connect
+  G4 S1                                               ; Wait for Expansion boards to connect
   M569 P0.0 S0 D3                                     ; Zstepper 1 goes backwards
   M569 P0.1 S0 D3                                     ; Zstepper 2 goes backwards
   M569 P0.2 S0 D3                                     ; Zstepper 3 goes backwards
