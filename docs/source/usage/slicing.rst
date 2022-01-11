@@ -19,3 +19,9 @@ If you are using soluable supports navigate to the "Print Settings" tab and sele
 In the "multiple Extruders" settings you can also select to use a wipe tower. Simply activate it by hitting the checkbox under "Enable". Changing back to the "Plater" tab you can then position the wipetower. Its size will adapt after you slice your model for the first time.
 
 If you are satisfied with your settings press "Slice now" and double check the generated gcode. You can directly upload the gcode to the printer using the right button that replaces the "Slice now" button.
+
+.. figure:: img/RatRig.png
+    :align: center
+    :figwidth: 300px
+
+    The default Rat Rig V-core 3 System (Source: www.ratrig.com)
