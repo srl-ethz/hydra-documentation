@@ -56,7 +56,7 @@ The Hydra MK1 Documentation
    
    Updating Firmware <maintenance/update>
    Calibrating Tool Offsets <maintenance/offset>
-   Calibrating Parking Spot <contents/maintenance/parking>
+   Calibrating Parking Spot <maintenance/parking>
    Unclogging Hemera <maintenance/unclogghemera>
    Unclogging Pellet Extruder <maintenance/uncloggpellet>
    
