@@ -5,7 +5,7 @@ Machined Parts
 Toolchanger Parts
 ==================
 
-The Hydra MK1 assembly requires two differt machined parts. One has to be lathed, the other can be milled or cut by waterjet.
+The Hydra MK1 assembly requires two different machined parts. One has to be lathed, the other can be milled or cut by waterjet.
 
 TC Belt Plate
 ^^^^^^^^^^^^^^^^
