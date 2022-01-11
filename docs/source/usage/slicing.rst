@@ -20,8 +20,8 @@ In the "multiple Extruders" settings you can also select to use a wipe tower. Si
 
 If you are satisfied with your settings press "Slice now" and double check the generated gcode. You can directly upload the gcode to the printer using the right button that replaces the "Slice now" button.
 
-.. figure:: img/RatRig.png
+.. figure:: img/SlicerScreenshot.png
     :align: center
-    :figwidth: 300px
+    :figwidth: 600px
 
-    The default Rat Rig V-core 3 System (Source: www.ratrig.com)
+    The Main Prusa Slicer Window
