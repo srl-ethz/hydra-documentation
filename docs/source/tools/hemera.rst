@@ -2,6 +2,10 @@
 E3D Hemera
 ################################
 
+Please follow the hotend assembly instructions found `on the E3D website <https://e3d-online.zendesk.com/hc/en-us/articles/360017204078-Hemera-Direct-Assembly-Guide-New->`_ .
+If you are using a different sized metal strip. You will have to modify the "bracket" and "Cable relief" parts.
+
+
 .. figure:: img/Hemera1.jpg
    :figwidth: 320px
    :alt: Left floating image
