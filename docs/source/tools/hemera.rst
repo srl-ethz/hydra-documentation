@@ -8,7 +8,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Prepare "Hemera adapter", three M3x6 caphead screws, and an M3 square nut.
 
 | 
 
@@ -24,7 +24,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Insert the square nut into the T-slot on the extruder motor. Note the orientation of the assembly.
 
 | 
 
@@ -40,7 +40,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Fasten the adapter to the extruder motor using the M3 screws.
 
 | 
 
@@ -50,13 +50,15 @@ E3D Hemera
 
 ----------------------------
 
+.. WARNING:: Do not use longer screws! They could damage the extruder motor.
+
 .. figure:: img/Hemera4.jpg
    :figwidth: 320px
    :alt: Left floating image
    :align: left
 
 
-| 
+| Prepare the print fan, the "PCF bracket", the "PCF duct", four M2x8 caphead screws, three M3 square nuts, two M3x5 caphead screws, and one M3x6 caphead screw.
 
 | 
 
@@ -72,7 +74,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Not the orientation of the print fan.
 
 | 
 
@@ -88,7 +90,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attach the print fan to the PCF duct using two M2x8 screws. 
 
 | 
 
@@ -104,7 +106,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attach the PCF bracket using two M2x8 screws.
 
 | 
 
@@ -120,7 +122,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Insert the square nuts into the remaining T-slots on the extruder motor.
 
 | 
 
@@ -136,7 +138,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attack the PCF duct to the extruder motor using two M3x5 screws.
 
 | 
 
@@ -152,7 +154,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attach the PCF bracket to the extruder motor using the M3x6 screw.
 
 | 
 
@@ -168,7 +170,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Prepare the Toolchanger Toolplate, including the six countersunk screws for fastening, the Toolchanger receiver, the "brace", the "bracket", two M3x8 caphead screws, two M3x6 caphead screws, and two M3x5 caphead screws.
 
 | 
 
@@ -184,7 +186,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Insert a short length of the metal strip into the bracket part through the slot on the side. This will be used to hold the tool in its parked spot with a magnet.
 
 | 
 
@@ -200,7 +202,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attach the brace to the receiver using the two M3x6 screws.
 
 | 
 
@@ -216,7 +218,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attack the bracket to the receiver using the two M3x6 screws.
 
 | 
 
@@ -232,7 +234,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attach the toolplate to the adapter using four of the provided countersunk screws.
 
 | 
 
@@ -248,7 +250,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attach the brace to the toolplate using the two remaining countersunk screws.
 
 | 
 
@@ -264,7 +266,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attach the bracket to the extruder moto using the two M3x5 screws.
 
 | 
 
@@ -280,7 +282,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Prepare the "Receiver Top", the "Cable Relief", Four M3x16 caphead screws, and one M3x5 caphead screw.
 
 | 
 
@@ -296,7 +298,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Tap the M3x5 screw into the cable relief. This will be used to hold the metal strip later.
 
 | 
 
@@ -312,7 +314,7 @@ E3D Hemera
    :align: left
 
 
-| 
+| Attach the cablerelief on top of the receiver top to the receiver using the four M3x16 screws. note the orientation of the cable relief. The slot for the metal strip should be facing away from the toolplate.
 
 | 
 
