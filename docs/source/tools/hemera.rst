@@ -10,6 +10,8 @@ E3D Hemera
 
 | Prepare "Hemera adapter", three M3x6 caphead screws, and an M3 square nut.
 
+|
+
 | 
 
 | 
@@ -25,6 +27,8 @@ E3D Hemera
 
 
 | Insert the square nut into the T-slot on the extruder motor. Note the orientation of the assembly.
+
+|
 
 | 
 
@@ -74,9 +78,11 @@ E3D Hemera
    :align: left
 
 
-| Not the orientation of the print fan.
+| Note the orientation of the print fan.
 
 | 
+
+|
 
 | 
 
@@ -110,6 +116,8 @@ E3D Hemera
 
 | 
 
+|
+
 | 
 
 | 
@@ -130,6 +138,8 @@ E3D Hemera
 
 | 
 
+|
+
 ----------------------------
 
 .. figure:: img/Hemera9.jpg
@@ -143,6 +153,8 @@ E3D Hemera
 | 
 
 | 
+
+|
 
 | 
 
@@ -160,6 +172,8 @@ E3D Hemera
 
 | 
 
+|
+
 | 
 
 ----------------------------
@@ -171,8 +185,6 @@ E3D Hemera
 
 
 | Prepare the Toolchanger Toolplate, including the six countersunk screws for fastening, the Toolchanger receiver, the "brace", the "bracket", two M3x8 caphead screws, two M3x6 caphead screws, and two M3x5 caphead screws.
-
-| 
 
 | 
 
@@ -210,6 +222,8 @@ E3D Hemera
 
 | 
 
+|
+
 ----------------------------
 
 .. figure:: img/Hemera14.jpg
@@ -218,13 +232,15 @@ E3D Hemera
    :align: left
 
 
-| Attack the bracket to the receiver using the two M3x6 screws.
+| Attach the bracket to the receiver using the two M3x6 screws.
 
 | 
 
 | 
 
 | 
+
+|
 
 ----------------------------
 
@@ -239,6 +255,8 @@ E3D Hemera
 | 
 
 | 
+
+|
 
 | 
 
@@ -258,6 +276,8 @@ E3D Hemera
 
 | 
 
+|
+
 ----------------------------
 
 .. figure:: img/Hemera17.jpg
@@ -273,6 +293,8 @@ E3D Hemera
 | 
 
 | 
+
+|
 
 ----------------------------
 
@@ -302,6 +324,8 @@ E3D Hemera
 
 | 
 
+|
+
 | 
 
 | 
@@ -322,4 +346,4 @@ E3D Hemera
 
 | 
 
-----------------------------
+
