@@ -13,7 +13,7 @@ Prompt                                                                    Select
 Select printer volume size	                                              400mm x 400mm x 400mm 
 Add Controller Board	                                                    Yes, I want to add a Duet 3 Mainboard 6HC 
 Add Genuine Hot End	                                                      No
-Add Genuine Extruder	                                                    E3D Hemera Direct Kit (1.75mm / 24V) […]
+Add Genuine Extruder	                                                    No
 Add printed parts service	                                                Yes I want to add the printed parts set - PETG black
 Printed Parts - EVA 2.3.0 Extruder Mount (…)	                            E3D Hemera mount
 Printed Parts: EVA 2.3.0 Hot-end mount (…)	                              E3D V6 mount
@@ -39,7 +39,8 @@ Item                       Amount    Ordering Link
 ========================= ========= =================================================================================
 E3D Toolchanger Carriage  1          https://e3d-online.com/products/toolchanger-toolhead?variant=31134333927483
 E3D Toolplate		          4          https://e3d-online.com/products/blank-tool-plate-dock-kit?variant=32570067058747
-Hemera Extruder (24V)		  1          https://e3d-online.com/products/e3d-hemera-direct-kit-1-75mm
+Hemera Extruder (24V)		  2          https://e3d-online.com/products/e3d-hemera-direct-kit-1-75mm
+Hemera Extrduer Fan       2          Link
 ========================= ========= =================================================================================
 
 As cable brace (And in the assembly of the Pellet Extruder) a steel band is used. You will need approx. 4m. The dimensions are 0.3mm x 11mm. If you can't find these exact dimensions, you will have to adapt some of the 3D printed parts.
@@ -125,3 +126,8 @@ C14 Socket            	       2
 Connector Strip                1
 Live, Neutral & Ground wire    ca 60cm
 ============================= ========= 
+
+Misc
+
+Schrauben
+Nozzles
