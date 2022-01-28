@@ -245,7 +245,7 @@ In the last section the tool offsets are set using the `G10 <https://duet3d.dozu
 
 .. admonition:: Changes
 
-   You will have to define the tool offsets that are correct for your machine. This is done in the "configuration" step.
+   You will have to define the tool offsets that are correct for your machine. Please see "calibrating tool offsets" for instructions.
 
 Prusa Slicer
 =============
