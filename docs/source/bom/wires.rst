@@ -92,3 +92,5 @@ Please crimp the following lengths of wires. For reference on how to crimp the c
 +                +-------------------+-------------------+
 | 		 | SSR		     | 32		 |
 +----------------+-------------------+-------------------+
+
+For easier Maintenance of the printhead it is recommended to add a connector close to the printhead. For example a double row 5 pin dupont connector could be used for signal and motor cables and a MOLEX connector for the heater cables.
