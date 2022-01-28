@@ -8,4 +8,4 @@ The Hydra MK1 is an open source project that aims to bring multi-material printi
     :align: center
     :figwidth: 400px
 
-    The Hydra MK1 Standard Configuration
+     The Hydra MK1 Standard Configuration
