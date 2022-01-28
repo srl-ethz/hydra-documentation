@@ -2,7 +2,7 @@
 Printed Parts
 ################################
 
-For the Motion Systema nd Toolchanger you will need to print the following parts. It is recommended to print several parts in PETG as they will either be exposed to raised temperatures or mechancial stress. The other parts can also be printed in PETG or a material that is easier to print such as PLA. Optimal orientation and support structures can be found in the TC.3mf file. If you are using a different cable brace, please adapt the "TC Top Block" and "" parts.
+For the Motion System and Toolchanger you will need to print the following parts. It is recommended to print several parts in PETG as they will either be exposed to raised temperatures or mechancial stress. The other parts can also be printed in PETG or a material that is easier to print such as PLA. Optimal orientation and support structures can be found in the TC.3mf file. If you are using a different cable brace, please adapt the "TC Top Block" and "" parts.
 
 ============================= ===================
 Part Name                     Material
@@ -16,7 +16,7 @@ Cable Clip Large (10x)        PETG/PLA
 Cable Clip Small (5x)         PETG/PLA
 ============================= ===================
 
-For each Hemera Tool the following 3D printed parts are needed. If you are using a different kind of cablebrace, please adapt the "Hemera Parking Spot" and "Hemera Cable Relief" parts. If you are using a second Hemera tool, mirror the "Filament Guide" and Filament Holder" parts for the second side.
+For each Hemera Tool the following 3D printed parts are needed. If you are using a different kind of cable brace, please adapt the "Hemera Parking Spot" and "Hemera Cable Relief" parts. If you are using a second Hemera tool, mirror the "Filament Guide" and Filament Holder" parts for the second side.
 
 ============================= ===================
 Part Name                     Material
@@ -47,3 +47,10 @@ V4 Hopper Adapter             PETG
 V4 Parking Spot               PETG/PLA
 V4 Plate                      PETG
 ============================= ===================
+
+After the parts are printed, remove any support material.
+
+Make sure your cable brace fits in the slots. If not, you can either clear the slots with an exacto knife, or heat up the metal strip and insert it into the recess. Check whether M3 screws can fit into the 3.2mm holes of the parts. If they bind up, you can drill open these holes with a 3.2mm or 3mm drillbit.
+
+.. Attention:: Some holes are meant to be taped into. Namely the mounting holes for TC receiver plates and the securing holes for the cable brace. Do not drill open these holes!
+
