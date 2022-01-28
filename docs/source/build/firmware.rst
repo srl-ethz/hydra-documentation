@@ -20,10 +20,6 @@ Config.g
 
 The config is run on startup of the printer. In the first part general statements are setting absolute coordinates, relative extruder moves, the printers name, the motion system, the units in mm, and several network settings.
 
-.. admonition:: Changes
-
-   You need to do this.
-
 ::
 
   ;General
@@ -39,6 +35,10 @@ The config is run on startup of the printer. In the first part general statement
   M586 P1 S0                              ; disable FTP
   M586 P2 S0                              ; disable Telnet
   
+.. admonition:: Changes
+
+   You can change the name of your printer here.
+
 In a second section after waiting for a second the stepper motors are configured via the `M569 <https://duet3d.dozuki.com/Wiki/M569>`_ command. The P parameter states the output, with the first number being the board (0 = Main board, 1= Expansion Board, 121 = Toolboard) and the second number describing the stepper output. The S parameter sets the direction with 0 being backwards and 1 forwards. The D parameter describes the mode in which the stepper works, with D3 being "stealth chop".
 The steppers are assigned to the different axis using the `M584 <https://duet3d.dozuki.com/Wiki/M584>`_ command.
 
@@ -63,6 +63,10 @@ The steppers are assigned to the different axis using the `M584 <https://duet3d.
   
   M584 X0.4 Y0.3 Z0.0:0.1:0.2 C1.1 E1.2:0.5:121.0:1.0 ; set drive mapping
 
+.. admonition:: Changes
+
+   If you did not follow the wiring scheme in this guide, you will have to adapt the stepper outputs (P parameter). In case you mixed up some wiring a stepper motor might spin the wrong direction. You can accounf for this by changing the S parameter.
+
 The following statements set several motor parameters. `M350 <https://duet3d.dozuki.com/Wiki/M350>`_ sets the microstepping mode to 1/16 and enables interpolation. The `M92 <https://duet3d.dozuki.com/Wiki/M92>`_ command sets how many steps the stepper needs to move to translate into a mm of linear motion on the printer axis. The `M906 <https://duet3d.dozuki.com/Wiki/M906>`_ command sets the motor current in mA as well as the idle factor. The idle factor is expressed in per cent and represents the percentage of current that will hold the motors in a powered on but not used state. The idle timeout is set with the `M84 <https://duet3d.dozuki.com/Wiki/M84>`_ command. S30 means that after 30 seconds of no use the stepper switches to its idle current. With the `M566 <https://duet3d.dozuki.com/Wiki/M566>`_ , `M203 <https://duet3d.dozuki.com/Wiki/M203>`_, and the `M201 <https://duet3d.dozuki.com/Wiki/M201>`_ The maximum velocities, accelerations and speedchanges are set.
 
 ::
@@ -79,6 +83,10 @@ The following statements set several motor parameters. `M350 <https://duet3d.doz
   M203 X20800.00 Y20800.00 Z1000.00 C15000 E3600.00:3600.00:3600.00:3600.00 ; set maximum speeds (mm/min)  
   M201 X3000.00 Y3000.00 Z100.00 C500 E3600.00:3600.00:3600.00:3600.00      ; set accelerations (mm/s^2)
   ;These values get reset after every toolchange
+
+.. admonition:: Changes
+
+   Depending on the extruders you are using, you will have to tweak the extruder steps per mm, extruder current, and speeds/accelerations of the printhead/extruders. We recommend a setting of 368 steps/mm and 1A for the E3D Hemera, and 228 steps/mm and 1.68A for the V4 Pellet Extruder.
 
 Using the `M208 <https://duet3d.dozuki.com/Wiki/M208>`_ command the axis minima (S=1) and maxima (S=0) can be set. For the X and Y axis the endstop type (S1 = Active High Endstop) and position (X1 = Low end of X axis) is defined via `M574 <https://duet3d.dozuki.com/Wiki/M574>`_ with P defining the input on the board, while the C axis (the coupler) is defined to have no endstop. The Z endstop is defined seperatly using the `M558 <https://duet3d.dozuki.com/Wiki/M558>`_ command. Here the P parameter defines the switch type (P8 selects an unfiltered switch (normally closed) for bed probing between the In and Gnd pins of the connector), C defines the input, H defines the dive height (H3 = the bed will move down 3mm before each probe), F defines the feedrate for the z axis, I0 does not invert the z probe reading, and T defines the X/Y feedrate. The `G31 <https://duet3d.dozuki.com/Wiki/G31>`_ sets the Z probe offset and the trigger value. The `M671 <https://duet3d.dozuki.com/Wiki/M671>`_ command defines the position of the Z leadscrews. The positions are used for the automatic med leveling. The `M557 <https://duet3d.dozuki.com/Wiki/M557>`_ sets the range in which the mesh bed leveling grid is measured, aswell as the number of points along one axis of the grid.
 
@@ -101,14 +109,15 @@ Using the `M208 <https://duet3d.dozuki.com/Wiki/M208>`_ command the axis minima 
   M671 X-4.5:200:404.5 Y-4.52:405:-4.52 S5    ; define positions of Z leadscrews
   M557 X20:360 Y20:335 P5                     ; define 5x5 mesh grid
 
+.. admonition:: Changes
 
+   If you are using the 500mm RatRig configuration you will need to add 100mm to the axis maxima. You will also have chang the M671 command to M671 X-4.5:250:504.5 Y-4.52:505:-4.52 S5 and the M557 to M557 X20:460 Y20:435 P5. You can adapt the gridsize of the mesh bed leveling by chaning the P parameter of the M557 command.
+   
 In the next section the heaters are initialised and the tools are defined. The `M308 <https://duet3d.dozuki.com/Wiki/M308>`_ is used to configure the temperature sensors. The S parameter specifies the sensor number, the P parameter sets the input, the Y parameter specifies the sensor type, for T the thermistor resistance at 25°C is entered, and for B the beta value. The sensor is named using the A parameter.
 Heaters are initialized using the `M950 <https://duet3d.dozuki.com/Wiki/M950>`_ command. H defines the heater number, C the output, and T the sensor number. using the `M307 <https://duet3d.dozuki.com/Wiki/M307>`_ command bang-bang control is disabled (in favour of FOPDT) and the PWM limit is set. The heater for the bed is set using the `M140 <https://duet3d.dozuki.com/Wiki/M140>`_ command. The `M143 <https://duet3d.dozuki.com/Wiki/M143>`_ command sets the maximum temperature in the S parameter for the heater H. The heating parameters can be set using the `M307 <https://duet3d.dozuki.com/Wiki/M307>`_ command. These values were found by running the automatic heater tuning with `M303 <https://duet3d.dozuki.com/Wiki/M303>`_ .
 The other tools are defined using the `M563 <https://duet3d.dozuki.com/Wiki/M563>`_ command. P states the tool number, H the heater number, D the extruder number, and F the fan number of the layer fan. Via the S parameter the hotend can be named. The active and passive temperatures are set to 0 using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command.
 Adapt the hotends as you need, swapping out thermistor types, heating outputs, temperature limits, and hotend names. 
-
-.. DANGER:: The set PID parameters will not match for your hotend, please run PID tuning using the `M303 <https://duet3d.dozuki.com/Wiki/M303>`_ command!
-  
+ 
 ::
 
   ;-----------------------------------------------------------------
@@ -172,8 +181,16 @@ Adapt the hotends as you need, swapping out thermistor types, heating outputs, t
   563 P3 S"HemeraR" D3 H4 F7                          ; define tool 3
   G10 P3 R0 S0                                        ; set initial temperatures to 0C
   M307 H4 B0 R1.157 C242.7:148.6 D7.43 S1.00 V24.3    ; PID parameters for heater 4
-  
+
+.. admonition:: Changes
+
+   If you are using a different wiring scheme you will have to change the inputs and outputs of the thermistor and heater respectively. You can also rename your hotends in this section. Please note that the PID parameters here are only an example. You will need to find out yours through a heater tuning step later.
+
+.. DANGER:: The set PID parameters will not match for your hotend, please run PID tuning using the `M303 <https://duet3d.dozuki.com/Wiki/M303>`_ command!
+
+
 The next section initializes a hotend and a print fan for each tool. The fans are initialized via the `M950 <https://duet3d.dozuki.com/Wiki/M950>`_ command, using the F parameter to set a fan number, C to set the output on the board, and Q to set the PMW frequency.  `M106 <https://duet3d.dozuki.com/Wiki/M106>`_ edits the details of the fan specified in the P parameter. Using the C parameter a name can be set, the S parameter defines the initial speed, H associates the fan with a heater, turning it on at the hotend temperature specified using the T parameter, or disables thermostatic control if set to -1. L defines the minimum speed.
+
 
 ::
 
@@ -205,6 +222,10 @@ The next section initializes a hotend and a print fan for each tool. The fans ar
   M950 F7 C"1.out3" Q500                  ; fan 7 on pin out3 of EXP and set  frequency
   M106 P7 C"Layer Fan 3" S0 H-1 L255      ; fan 7 name, thermostatic control is turned off
 
+.. admonition:: Changes
+
+   If you are using a different wiring scheme, you will have to adapt the outputs of the fans. Depending on the type of fan, you might have to use low frequency PMW to steer it, changing the Q parameter of that fan to a 7 or similar. You can rename the fans here.
+
 In the last section the tool offsets are set using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command, where Pspecifies the tool. With the  `M404 <https://duet3d.dozuki.com/Wiki/M404>`_ command the filament width and nozzle diameter are set, and at the end any currently tool is deselected (This won't result in any movement or toolchange, but sets the initial tool to none selected).
 
 ::
@@ -221,6 +242,10 @@ In the last section the tool offsets are set using the `G10 <https://duet3d.dozu
 
   M404 N1.75 D0.4     ; Filament width and nozzle diameter
   T-1                 ; Deselect any current tool
+
+.. admonition:: Changes
+
+   You will have to define the tool offsets that are correct for your machine. This is done in the "configuration" step.
 
 Prusa Slicer
 =============
