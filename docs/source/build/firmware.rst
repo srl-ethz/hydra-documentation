@@ -6,17 +6,23 @@ Firmware and Slicer
 Duet Pi
 ===========
 
+Please follow the _`guide <https://duet3d.dozuki.com/Wiki/SBC_Setup_for_Duet_3#Section_Step_1_Flash_the_image_file>`_ on the Duet3D webpage, to set up your Raspberry Pi. You will not have to configure your system files with the online tool. Instead, you can follow the steps in the RepRap Firmware section.
+
 RepRap Firmware
 ================
 
-Place the .g files found in the LINK folder into the sys folder of your virtual SD card.
-Please make sure to adapt you config.g file before powering up the printer for the first time.
+Please follow the _`guide <webpagehttps://duet3d.dozuki.com/Wiki/Getting_Started_With_Duet_3#Section_Duet_3_and_RepRapFirmware_Num_3>`_ on the Duet3D webpage on how to update the firmware on your board. With the newest RepRap version installed place the .g files found in the LINK folder into the sys folder of your virtual SD card.
 
+.. Attention:: You will need to edit several parameters of the .g files, as shown below before using your printer.
 
 Config.g
 ^^^^^^^^^^^^^^
 
 The config is run on startup of the printer. In the first part general statements are setting absolute coordinates, relative extruder moves, the printers name, the motion system, the units in mm, and several network settings.
+
+.. admonition:: Changes
+
+   You need to do this.
 
 ::
 
