@@ -308,3 +308,13 @@ tpost.g
 
 Prusa Slicer
 =============
+
+Please download the newest version of _`Prusa Slicer <https://www.prusa3d.com/de/page/prusaslicer_424/>`_ from their webpage. You will now have to add the config files for the printer, the printing process, and the filaments. Please download the .ini files from the folder "Prusa Slicer" on the github repository. You will have to place them in certain folders in the Prusa Slicer. You will fin the folder under:
+
+Windows:  C:Users/username/AppData/Roaming/PrusaSlicer
+Mac:      “HDD” ▸ ⁨Users⁩ ▸ ⁨username⁩ ▸ ⁨Library⁩ ▸ ⁨Application Support⁩ ▸ ⁨PrusaSlicer
+Linux:    ~/.config/PrusaSlicer
+
+You can now put the .ini files into the corresponding folders in Prusa Slicer. (filament -> filament etc.).
+
+You can define a physical printer in Prusa Slicer to directly upload printjobs to your printer. For this please open Prusa Slicer (After adding the .ini files) and navigate to the "Printer Settings page".
