@@ -317,6 +317,8 @@ Please download the newest version of _`Prusa Slicer <https://www.prusa3d.com/de
 
 **Linux:**    ~/.config/PrusaSlicer
 
+.. Note:: On windows you will have to show hidden folders. You can do this in explorer under view -> options.
+
 You can now put the .ini files into the corresponding folders in Prusa Slicer. (filament -> filament etc.).
 
 You can define a physical printer in Prusa Slicer to directly upload printjobs to your printer. For this please open Prusa Slicer (After adding the .ini files) and navigate to the "Printer Settings page".
