@@ -81,7 +81,7 @@ Heating Element
    :alt: Left floating image
    :align: left
 
-| Carefully clamp the heat cartridge using a SIZE screw.
+| Carefully clamp the heat cartridge using the provided screw.
 
 | 
 
@@ -111,7 +111,7 @@ Heating Element
    :alt: Left floating image
    :align: left
 
-| Carefully clamp the thermistor
+| Carefully clamp the thermistor using the provided set screw.
 
 | 
 
@@ -196,7 +196,7 @@ Pellet Parking Spot
    :alt: Left floating image
    :align: left
 
-| Prepare the printed part “pellet_parking”, the machined part “pellet_bracket”, two pins from the E3D Toolchanger, two M3 locking nuts, two M3 x LENGTH screws, and one M3 x 5 screw, magnet.
+| Prepare the printed part “pellet_parking”, the machined part “pellet_bracket”, two M3 locking nuts, one M3x5 screw, two pins, the small magnet, and two M3x16 screws (The last three items are included in the “blank toolplate and dock” kit from E3D).
 
 | 
 
@@ -209,7 +209,7 @@ Pellet Parking Spot
    :alt: TBD
    :align: left
 
-|Screw the two pins into the pellet_bracket. If the fit is too tight carefully loosen up the outer hole with a 4mm drill bit. 
+| Screw the two pins into the pellet_bracket. If the fit is too tight carefully loosen up the outer hole with a 4mm drill bit. 
 
 | 
 
@@ -239,7 +239,7 @@ Pellet Parking Spot
    :alt: TBD
    :align: left
 
-| Tighten the pellet_bracket to the pellet_parking part using the two M3 x LENGTH screws.
+| Tighten the bracket to the parking spot using the two M3x16 screws.
 
 | 
 
@@ -254,7 +254,7 @@ Pellet Parking Spot
    :alt: TBD
    :align: left
 
-| Carefully tap an M3 thread into the plastic part using the M3 x 5 screw.
+| Carefully tap an M3 thread into the plastic part using the M3x5 screw. This is later used to clamp the cable brace.
 
 | 
 
@@ -269,7 +269,7 @@ Pellet Parking Spot
    :alt: TBD
    :align: left
 
-| Push in the magnet until it is up against the outer plastig holding it in place.
+| Push in the magnet until it is up against the outer plastic holding it in place. 
 
 | 
 
@@ -288,7 +288,7 @@ Receiving Bracket
    :alt: Left floating image
    :align: left
 
-| Prepare two M3 locking nuts, two M3 LENGTH screw, one M3 x 5 screw, and the two parts of the “pellet_receiver”.
+| Prepare two M3 locking nuts, two M3x16 screw, one M3x5 screw, and the two parts of the “pellet_receiver”.
 
 | 
 
@@ -319,7 +319,7 @@ Receiving Bracket
    :alt: Left floating image
    :align: left
 
-| Place both parts upside down on a flat surface and join them using two M3 LENGTH screws
+| Place both parts upside down on a flat surface and join them using two M3x16 screws
 
 | 
 
@@ -350,7 +350,7 @@ Receiving Bracket
    :alt: Left floating image
    :align: left
 
-| Carefully tap an M3 thread into the plastic part using the M3 x 5 screw.
+| Carefully tap an M3 thread into the plastic part using the M3x5 screw. This will later be used to clamp the cable brace.
 
 | 
 
@@ -366,7 +366,7 @@ Receiving Bracket
    :alt: Left floating image
    :align: left
 
-| Unscrew the two parts and set the aside for future steps.
+| Unscrew the two parts and set them aside for future steps.
 
 |
 
@@ -430,7 +430,7 @@ Body Assembly
    :alt: Left floating image
    :align: left
 
-| On the otherside insert two M3xLENGTH screws. Do not tighten the yet.
+| On the otherside insert two of the same kind of screws. Do not tighten them yet.
 
 |
 
@@ -739,7 +739,7 @@ Fans
    :alt: Left floating image
    :align: left
 
-| Prepare the “pellet_fan_shroud”, the “pellet_fan_guide”, the two fans, and seven M3 LENGTH screws.
+| Prepare the “pellet_fan_shroud”, the “pellet_fan_guide”, the two fans, and the seven M3 screws that were holding down the fans.
 
 |
 
@@ -769,7 +769,7 @@ Fans
    :alt: Left floating image
    :align: left
 
-| Fasten the print fan to the extruder using three M3 LENGTH screws.
+| Fasten the print fan to the extruder using three M3 screws.
 
 |
 
@@ -816,7 +816,7 @@ Fans
    :alt: Left floating image
    :align: left
 
-| Place the fan on the fan guide making sure the cable is facing upwards and fasten using 4 M3 LENGTH screws.
+| Place the fan on the fan guide making sure the cable is facing upwards and fasten using four M3 screws.
 
 |
 
@@ -834,7 +834,7 @@ Receiver Plate
    :alt: Left floating image
    :align: left
 
-| Prepare the “pellet_plate”, the M3 screw that were inserted into the standoffs, and the E3D Toolplate including its 6 mounting screws.
+| Prepare the “pellet_plate”, the M3 screw that were inserted into the standoffs, and the E3D Toolplate including its six countersunk mounting screws.
 
 |
 
@@ -849,7 +849,7 @@ Receiver Plate
    :alt: Left floating image
    :align: left
 
-| Tap into the plastic part using an M3 screw. (We recommend to use a caphead screw to this to avoid damaging the screw/allen key)
+| Tap into the plastic part using an M3 screw. (We recommend to use a caphead screw to do this to avoid damaging the screw/allen key)
 
 |
 
@@ -918,3 +918,5 @@ Receiver Plate
 | 
 
 ----------------------------
+
+We recommend shortening the cables and crimping connectors on the ends. This is so the printhead can easily be removed from the machine for maintenance.
