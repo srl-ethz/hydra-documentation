@@ -368,8 +368,6 @@ Parking spot
 
 | 
 
-| 
-
 ----------------------------
 
 .. figure:: img/HemeraPark2.jpg
@@ -397,6 +395,8 @@ Parking spot
 | Insert the two M3 nuts into the slots on the parking spot.
 
 | 
+
+|
 
 | 
 
@@ -448,6 +448,8 @@ Parking spot
 
 | 
 
+|
+
 | 
 
 | 
@@ -466,6 +468,8 @@ Parking spot
 
 | 
 
+|
+
 | 
 
 ----------------------------
@@ -477,6 +481,7 @@ Parking spot
 
 
 | Press the magnet all the way to the front. This can easily be done by using an allen key or similar object.
+
 | 
 
 | 
