@@ -246,6 +246,65 @@ In the last section the tool offsets are set using the `G10 <https://duet3d.dozu
 .. admonition:: Changes
 
    You will have to define the tool offsets that are correct for your machine. Please see "calibrating tool offsets" for instructions.
+   
+tfree.g
+^^^^^^^^
+
+::
+
+  G91                 ;Relative positioning
+  G1 Z5 F1000         ;Lower bed
+  G90                 ;Absolute positioning
+
+  G10 P0 X0 Y0 Z-5.9  ;Set offset back to 0
+
+  G1 X13 Y293 F30000  ;Move in front of parking spot to avoid collision
+  G1 X13 Y323 F30000  ;Move in quickly
+  G1 X13 Y363 F5000   ;Move in slower
+
+  M98 P"/macros/Coupler - Unlock"   ;Open Coupler
+  M106 P1 S0                        ;Turn off the fan
+
+  G1 X13 Y343 F2000   ;Move out slowly
+  G1 X13 Y323 F6000   ;Move out quickly
+
+  M566 X400.00 Y400.00 Z6.00 C2 E120.00:120.00:120.00:120.00 P1               ; set maximum instantaneous speed changes (mm/min)
+  M203 X20800.00 Y20800.00 Z1000.00 C15000 E3600.00:3600.00:3600.00:3600.00   ; set maximum speeds (mm/min)
+  M201 X3000.00 Y3000.00 Z100.00 C500 E3600.00:3600.00:3600.00:3600.00        ; set accelerations (mm/s^2)
+
+
+tpre.g
+^^^^^^^^
+
+::
+
+  G1 X13 Y323 F15000    ;Move in front of Tool Location
+  G1 X13 Y361 F5000     ;Quickly move into Tool
+  G1 X13 Y363 F3000     ;Slowly close the gap
+
+  M98 P"/macros/Coupler - Lock"   ;Close Coupler
+
+  M566 X100.00 Y100.00 Z6.00 C2 E120.00:120.00:120.00:120.00 P1             ; set maximum instantaneous speed changes (mm/min)
+  M203 X18000.00 Y18000.00 Z1000.00 C15000 E3600.00:3600.00:3600.00:3600.00 ; set maximum speeds (mm/min)
+  M201 X3000.00 Y3000.00 Z100.00 C500 E3600.00:3600.00:3600.00:3600.00      ; set accelerations (mm/s^2)
+
+  G91             ;Relative positioning
+  G1 Z10 F1000    ;Move bed out of the way
+  G90             ;Absolute positioning
+
+  G1 X13 Y323 F6000   ;Move out
+
+tpost.g
+^^^^^^^^
+
+::
+
+  G10 P0 X21.4 Y-7.9 Z-5.9  ;Set tool offset
+  M116 P0                   ;Heat up tool
+  M106 R1                   ;Restore print fan speed
+  G91                       ;Relative positioning
+  G1 Y-20 F6000             ;Move out
+  G90                       ;absolute positioning
 
 Prusa Slicer
 =============
