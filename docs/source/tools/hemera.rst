@@ -3,8 +3,10 @@ E3D Hemera
 ################################
 
 Please follow the hotend assembly instructions found `on the E3D website <https://e3d-online.zendesk.com/hc/en-us/articles/360017204078-Hemera-Direct-Assembly-Guide-New->`_ .
-If you are using a different sized metal strip. You will have to modify the "bracket" and "Cable relief" parts.
+If you are using a different sized metal strip. You will have to modify the "bracket", "Cable relief", and "Parking spot" parts.
 
+Main Tool
+===========
 
 .. figure:: img/Hemera1.jpg
    :figwidth: 320px
@@ -350,4 +352,150 @@ If you are using a different sized metal strip. You will have to modify the "bra
 
 | 
 
+Parking spot
+====================
+
+
+.. figure:: img/HemeraPark1.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Perpare the "Hemera_Parking_spot", one M3x5 caphead screw, two m3 locking nuts, the parking bracket, two pins, the small magnet, and two M3x16 screws (The last four items are included in the "blank toolplate and dock" kit from E3D).
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/HemeraPark2.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Attach the two pins to the bracket and tighten by sloting a small allen key through the hole in the pin.
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/HemeraPark3.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Insert the two M3 nuts into the slots on the parking spot.
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/HemeraPark4.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| While still holding the part upside down attach the bracket by inserting the two M3x16 screws.
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/HemeraPark5.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Tighten the M3 screws.
+
+|
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/HemeraPark6.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Thread the M3x5 screw into the top of the part. This will later be used to clamp the cable brace.
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/HemeraPark7.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Insert the magnet into the slot in the middle of the part.
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/HemeraPark8.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Press the magnet all the way to the front. This can easily be done by using an allen key or similar object.
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/HemeraPark9.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| You are now ready to mount the parking spot on the machine. Please follow the guide in the RatRig assembly.
+
+| 
+
+| 
+
+| 
 
