@@ -12,8 +12,8 @@ To level the bed run the `G32 <https://duet3d.dozuki.com/Wiki/G32>`_ command. Th
 
 To run a mesh bed calibration use the command `G29 <https://duet3d.dozuki.com/Wiki/G29>`_ S0. This will probe the bed in a 5x5 grid, store the data in the heightmap.csv file, and compensate for any skews in the printing platform.
 
-.. figure:: img/Homing
+.. figure:: img/HomeButtons.png
     :align: center
-    :figwidth: 300px
+    :figwidth: 600px
 
     The Home Buttons in the Duet Web Interface
