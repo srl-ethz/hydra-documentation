@@ -250,6 +250,8 @@ In the last section the tool offsets are set using the `G10 <https://duet3d.dozu
 tfree.g
 ^^^^^^^^
 
+The tfree.g file is called when a tool is deselcted. It will first lower the bed slightly in relative coordinates. Then it removes the X/Y offset of the printhead, so the parking spot can be approached in the normal coordinate system. It will then move to the parking spot, disengage the coupler and turn off the printfan. With the printhead securely parked it moves out from the parking spot for clearance and changes the acceleration and speed parameters, since the toolhead without a tool has less inertia and can move quicker.
+
 ::
 
   G91                 ;Relative positioning
@@ -272,9 +274,14 @@ tfree.g
   M203 X20800.00 Y20800.00 Z1000.00 C15000 E3600.00:3600.00:3600.00:3600.00   ; set maximum speeds (mm/min)
   M201 X3000.00 Y3000.00 Z100.00 C500 E3600.00:3600.00:3600.00:3600.00        ; set accelerations (mm/s^2)
 
+.. admonition:: Changes
+
+   You will have to define the parking spot for each tool seperately. This is specified in section "Calibrating Parking Spot". You can leave the speed and acceleration parameters as suggested. If you want to move the toolhead without tool faster, you will have to change the values for X and Y in all tfree.g files and the config.g file.
 
 tpre.g
 ^^^^^^^^
+
+The tpre.g gcode is called beofre a tool is selected. This means it happens before the tool is switched to active, and the tool offset is applied. It will move in front of the tool for clearance and then move into the tool. The couple locks it in place and the parameters are adjusted for the different inertia of the printhead. The bed is moved out of the way to roughly acommodate for the z offset of the printhead. The head is then moved out of the parking spot. This has to be done before the tooloffset, since the tool offset will be changing the position of the parking spot in the adapted coordinate system.
 
 ::
 
@@ -294,8 +301,14 @@ tpre.g
 
   G1 X13 Y323 F6000   ;Move out
 
+.. admonition:: Changes
+
+   You will have to adjust the Parking spot position, further detailed in section "Calibrating Parking Spots", the rough offset, further specified in "Calibrating Tool Offsets", and the speed/acceleration values. You can do this my starting with relatively low values and slowly increasing them with the printhead selected, to see what is still managable with the inertia of the printhead.
+
 tpost.g
 ^^^^^^^^
+
+The tpost.g file is run after the toolchange of the respective tool. I sets the tooloffset, heats up the tool and sets the print fan speed. It will then move out slightly for clearance.
 
 ::
 
@@ -305,6 +318,10 @@ tpost.g
   G91                       ;Relative positioning
   G1 Y-20 F6000             ;Move out
   G90                       ;absolute positioning
+
+.. admonition:: Changes
+
+   You will have to set the tool offset, further detailed in section "Calibrating Tool Offsets", as well as the tool to heat up in the M116 command.
 
 Prusa Slicer
 =============
