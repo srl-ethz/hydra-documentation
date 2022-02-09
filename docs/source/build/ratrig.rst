@@ -14,7 +14,7 @@ To attach the modified Y endstop, simply attach the microswitch to the modified 
 
 
 
-.. figure:: img/YEndstop1.png
+.. figure:: img/Ystop1.png
     :align: center
     :figwidth: 300px
 
