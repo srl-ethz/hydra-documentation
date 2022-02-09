@@ -13,13 +13,72 @@ To assemble the Rat Rig, please follow the instructions found `here <https://rat
 To attach the modified Y endstop, simply attach the microswitch to the modified 3D printed part using two M3x6 caphead screws.
 
 
+.. figure:: img/Ystop1.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
 
-.. figure:: img/Ystop1.png
-    :align: center
-    :figwidth: 300px
 
-    The default Rat Rig V-core 3 System (Source: www.ratrig.com)
+| Prepare a microswitch, the "YstopHolder", two M3x6 caphead screws, one M6 drop in T-nut, and one M6x12 caphead screw.
 
-Then attach the part to the frame using an M6 bolt and drop-in T-nut. 
+| 
 
-Make sure the switch is activated, just before the Y axis is stopped by the metal brackets on the low end of the printer. 
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Ystop2.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Attach the microswitch to the YstopHolder using two M3x6 caphead screws.
+
+|
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Ystop3.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Attach the drop in T-nut to the part using the M6x12 screw.
+
+|
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+.. figure:: img/Ystop4.jpg
+   :figwidth: 320px
+   :alt: Left floating image
+   :align: left
+
+
+| Attach the the part to the left part of the frame, making sure it is pushed up all the way to the plastic corner piece.
+
+| 
+
+| 
+
+| 
+
+----------------------------
+
+Confirm that the switch is activated, just before the Y axis is stopped by the metal brackets on the low end of the printer. 
