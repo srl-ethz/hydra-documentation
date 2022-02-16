@@ -3,7 +3,7 @@ Hardware and Software Overview
 ################################
 
 
-This section will give a more specific overview of the hardware and software components and their functions.
+This section will give a more specific overview of the hardware and software components and their functions.adsasd
 
 Motion System
 ===============
