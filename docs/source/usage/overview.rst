@@ -10,7 +10,7 @@ Motion System
 The motion system consists of the frame, the axis, including the motors, and the print bed.
 The `Rat Rig <https://www.ratrig.com/>`_ is build up from 3030 aluminium profiles (Exception: The X-Axis consists of a 2020 profile). They are connected with aluminium plates in the corners, as well as 90 degree brackets for the back linear rail mounting. The Z-axis runs on three linear rails that are directly screwed to the inside of the outer profiles. It is driven via three threaded rods connected to NEMA 17 stepper motors via thrust bearings and couplers. The print bed is an aluminium plate that has three steel balls screwed into the underside. These steel balls rest between two steel rods that are inserted in 3D printed parts, running on the linear rails and connected to the threaded rods via a plastic coupler. 
 The Y-axis consists of a 2020 Extrustion that is mounted on two linear rails that are mounted to the underside of the top of the frame. A third linear rail is screwed to the top of the 2020 extrusion to serve as the X-axis. The X and Y axis are driven via two long belts in a core XY layout. The belts are driven by two NEMA 17 motors located in the back of the top frame.
-To tension the belts a 3D printed tensioning system mounted on the X-carriage is used. 
+To tension the belts a 3D printed tensioning system mounted on the X-carriage is used.  asd
 
 Tool Changer
 ============
