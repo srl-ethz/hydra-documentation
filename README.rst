@@ -1,9 +1,7 @@
-Template for the Read the Docs tutorial
+Documentation for the Hydra MK1 Opensource project
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repository includes all the files and instructions needed to build and run a Hydra MK1 3D printer.
 
-Read the tutorial here:
+Read the tutorial [here.](https://hydramk1.rtfd.io)
 
-https://docs.readthedocs.io/en/stable/tutorial/
