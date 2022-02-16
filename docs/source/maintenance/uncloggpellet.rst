@@ -2,7 +2,15 @@
 Unclogging Pellet Extruder
 ################################
 
-To unclogg the V4 Pellet Extruder please follow the assembly guide in reverse order, until both aluminium brackets are removed. The Extruder should now look like this:
+If the pellet extruder is clogges, first try to remove any material from the chamber and extrude some material on the slowest speed. 
+
+If this fails, try raising the temperature by 10-20 degrees (assuming the material is not flammable or deteriorates at said temperatures) and try to extrude some material.
+
+If this fails, remove the nozzle from the extruder and try the same procedure.
+
+If the pellet extruder is still clogged, you will have to take it apart, to clean the extruder screw. This will take between 30 and 60 minutes.
+
+To take appart the V4 Pellet Extruder please follow the assembly guide in reverse order, until both aluminium brackets are removed. The Extruder should now look like this:
 
 .. figure:: img/Maint1.jpg
     :align: center
