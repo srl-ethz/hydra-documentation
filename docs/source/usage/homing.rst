@@ -4,7 +4,7 @@ Homing
 
 Before homing, no tool should be selected. If a tool is selected make sure to home the C axis first, while holding the currently selected Tool. The tool will release and can manually be slid back into its parking spot.
 
-To home the printer simply press the button "Home all" in the Duet web interface. Alternatively all axis can be homed using the `G28 <https://duet3d.dozuki.com/Wiki/G28>`_ command. To home a single axis, press the respective home button in the Duet web interface.
+To home the printer simply press the button "Home all" in the Duet web interface. Alternatively, all axis can be homed using the `G28 <https://duet3d.dozuki.com/Wiki/G28>`_ command. To home a single axis, press the respective home button in the Duet web interface.
 
 To level the bed run the `G32 <https://duet3d.dozuki.com/Wiki/G32>`_ command. This will probe three points and then adjust the bed, compensating for any tilt. It is recommended to run this process at least twice. 
 
