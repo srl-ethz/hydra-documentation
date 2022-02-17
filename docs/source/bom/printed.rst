@@ -11,6 +11,7 @@ TC Cover                      PETG
 TC Tensioner                  PETG
 TC Top Block                  PETG
 TC XY Block                   PETG
+TC Brace                      PETG/PLA
 Y Switch Holder               PETG
 Cable Clip Large (10x)        PETG/PLA
 Cable Clip Small (5x)         PETG/PLA
