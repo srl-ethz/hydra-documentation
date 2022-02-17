@@ -8,7 +8,7 @@ For both procedures, first home all axis. Then take the corresponding tool for t
 
 Carefully move the tool to the parking spot location using the move buttons in the dashboard of the duet web interface. I you have not attached your parking spot to the frame yet, you can also slot the tool into the parking spot and slowly move up to the back of the printer. When apporoaching the Y-limit, move in smaller increments, until you are satisfied with the position. Note down the X and Y coordinates in the top left of the duet web interface dashboard.
 
-Fasten the parking spot if it was loose and select the "coupler - unlock" macro. Move the tool head out in the -Y direction. 
+Fasten the parking spot if it was loose and select the "coupler - unlock" macro. Move the tool head out in the **minus** Y direction. 
 
 .. DANGER:: Do not move further to the back (positive Y) and do not move in X-direction!
 
