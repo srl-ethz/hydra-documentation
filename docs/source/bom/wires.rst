@@ -2,7 +2,7 @@
 Crimped Wires
 ################################
 
-To connect all the electronics you will need to crimp your own wires or order precrimped wires. The connectros and crimps to connect to the duet boards are included with the boards. We recommend having a connector close to the printhead, for easier disassebmbly in case of a hotend clogg. A widely available connector would be a dupont style connector, however it could be advantageous to use a locking connector.
+To connect all the electronics you will need to crimp your own wires or order pre-crimped wires. The connectors and crimps to connect to the duet boards are included with the boards. We recommend having a connector close to the printhead, for easier disassembly in case of a hotend clogg. A widely available connector would be a DuPont style connector, however, it could be advantageous to use a locking connector.
 
 Please crimp the following lengths of wires. For reference on how to crimp the connectors for the duet board, please see the `duet 3D wiring diagrams <https://duet3d.dozuki.com/Wiki/Duet_3_Mainboard_6HC_Wiring_Diagram>`_ or the following pictures.
 
@@ -93,4 +93,4 @@ Please crimp the following lengths of wires. For reference on how to crimp the c
 | 		 | SSR		     | 32		 |
 +----------------+-------------------+-------------------+
 
-For easier Maintenance of the printhead it is recommended to add a connector close to the printhead. For example a double row 5 pin dupont connector could be used for signal and motor cables and a MOLEX connector for the heater cables.
+For easier maintenance of the printhead, it is recommended to add a connector close to the printhead. For example, a double row 5 pin DuPont connector could be used for signal and motor cables and a MOLEX connector for the heater cables.
