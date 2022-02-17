@@ -63,9 +63,8 @@ tpre.g
 
   G91             ;Relative positioning
   G1 Z10 F1000    ;Move bed out of the way
-  G90             ;Absolute positioning
-
   G1 Y-40 F6000   ;Move out
+  G90             ;Absolute positioning
 
 .. admonition:: Changes
 
@@ -76,12 +75,12 @@ tpost.g
 
 ::
 
-  G10 P0 X21.4 Y-7.9 Z-5.9		;Set tool offset
-  M116 P0							;Heat up tool
-  M106 R1							;Restore print fan speed
-  G91								;Relative positioning
-  G1 Y-20 F6000					;Move out
-  G90								;Absolute positioning   
+  G10 P0 X21.4 Y-7.9 Z-5.9    ;Set tool offset
+  M116 P0                     ;Heat up tool
+  M106 R1                     ;Restore print fan speed
+  G91                         ;Relative positioning
+  G1 Y-20 F6000               ;Move out
+  G90                         ;Absolute positioning   
 
 .. admonition:: Changes
 
@@ -96,12 +95,12 @@ If you have set the Z offsets of your tools it is time to calibrate the X and Y 
 
 ::
 
-  G10 P0 X21.4 Y-7.9 Z-5.9		;Set tool offset
-  M116 P0							;Heat up tool
-  M106 R1							;Restore print fan speed
-  G91								;Relative positioning
-  G1 Y-20 F6000					;Move out
-  G90								;Absolute positioning   
+  G10 P0 X21.4 Y-7.9 Z-5.9    ;Set tool offset
+  M116 P0                     ;Heat up tool
+  M106 R1                     ;Restore print fan speed
+  G91                         ;Relative positioning
+  G1 Y-20 F6000               ;Move out
+  G90                         ;Absolute positioning     
 
 .. admonition:: Changes
 
