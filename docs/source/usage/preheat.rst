@@ -2,7 +2,7 @@
 Preheating and Swapping Tools
 ################################
 
-To Preheat a tool, simply enter the desired temperature or select it from the drop down menu in the passive box in the Duet web interface. Then click on the respective "Preheat Hotend" macro on the right side of the  interface. 
+To Preheat a tool, simply enter the desired temperature or select it from the drop-down menu in the passive box in the Duet web interface. Then click on the respective "Preheat Hotend" macro on the right side of the  interface. 
 
 .. note::  If the tool is currently active, this will deselect it. When the tool is selected, the active temperature will be set.
   
