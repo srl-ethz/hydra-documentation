@@ -41,7 +41,7 @@ tfree.g
 
 .. admonition:: Changes
 
-   Enter the coordinates you noted down in the line with the comment "Move in slower" OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+   Enter the coordinates you noted down in the line with the comment "Move in slower". Make the coordinates in "Move in quickly" and the "move out quickly" the X-coordinate you noted down, and the Y-coordinate you noted down minus 40. Make the "Move in front of parking spot to avoid collision" coordinates the X-coordinate you noted down, and the Y-coordinate you noted down minus 70. Make the "Move out slowly" coordinates the X-coordinate you noted down, and the Y-coordinate you noted down minus 20.
 
 tpre.g
 ^^^^^^^^
