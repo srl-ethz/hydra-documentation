@@ -344,7 +344,7 @@ Main Tool
    :align: left
 
 
-| Attach the cablerelief on top of the receiver top to the receiver using the four M3x16 screws. note the orientation of the cable relief. The slot for the metal strip should be facing away from the toolplate.
+| Attach the cable relief on top of the receiver top to the receiver using the four M3x16 screws. note the orientation of the cable relief. The slot for the metal strip should be facing away from the toolplate.
 
 | 
 
@@ -362,7 +362,7 @@ Parking spot
    :align: left
 
 
-| Perpare the "Hemera_Parking_spot", one M3x5 caphead screw, two m3 locking nuts, the parking bracket, two pins, the small magnet, and two M3x16 screws (The last four items are included in the "blank toolplate and dock" kit from E3D).
+| Prepare the "Hemera_Parking_spot", one M3x5 caphead screw, two m3 locking nuts, the parking bracket, two pins, the small magnet, and two M3x16 screws (The last four items are included in the "blank toolplate and dock" kit from E3D).
 
 | 
 
@@ -376,7 +376,7 @@ Parking spot
    :align: left
 
 
-| Attach the two pins to the bracket and tighten by sloting a small allen key through the hole in the pin.
+| Attach the two pins to the bracket and tighten by slotting a small allenkey through the hole in the pin.
 
 | 
 
@@ -482,7 +482,7 @@ Parking spot
    :align: left
 
 
-| Press the magnet all the way to the front. This can easily be done by using an allen key or similar object.
+| Press the magnet all the way to the front. This can easily be done by using an allenkey or similar object.
 
 | 
 
