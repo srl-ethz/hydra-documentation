@@ -65,7 +65,7 @@ Heating Element
    :alt: Left floating image
    :align: left
 
-| Make sure the heatcartridge is flush with the bottom of the heater block.
+| Make sure the heat cartridge is flush with the bottom of the heater block.
 
 |
 
@@ -288,7 +288,7 @@ Receiving Bracket
    :alt: Left floating image
    :align: left
 
-| Prepare two M3 locking nuts, two M3x16 screw, one M3x5 screw, and the two parts of the “pellet_receiver”.
+| Prepare two M3 locking nuts, two M3x16 screws, one M3x5 screw, and the two parts of the “pellet_receiver”.
 
 | 
 
@@ -430,7 +430,7 @@ Body Assembly
    :alt: Left floating image
    :align: left
 
-| On the otherside insert two of the same kind of screws. Do not tighten them yet.
+| On the other side insert two of the same kind of screws. Do not tighten them yet.
 
 |
 
@@ -631,7 +631,7 @@ Body Assembly
    :alt: Left floating image
    :align: left
 
-| Place the other outer aluminium brackets on top of the pellet_bracket_B. Make sure the heater cables are still guided inside of the lower part of the aluminium bracket.
+| Place the other outer aluminium brackets on top of the pellet_bracket_B. Make sure the heater cables are still guided inside the lower part of the aluminium bracket.
 
 |
 
@@ -834,7 +834,7 @@ Receiver Plate
    :alt: Left floating image
    :align: left
 
-| Prepare the “pellet_plate”, the M3 screw that were inserted into the standoffs, and the E3D Toolplate including its six countersunk mounting screws.
+| Prepare the “pellet_plate”, the M3 screws that were inserted into the standoffs, and the E3D Toolplate including its six countersunk mounting screws.
 
 |
 
@@ -849,7 +849,7 @@ Receiver Plate
    :alt: Left floating image
    :align: left
 
-| Tap into the plastic part using an M3 screw. (We recommend to use a caphead screw to do this to avoid damaging the screw/allen key)
+| Tap into the plastic part using an M3 screw. (We recommend using a caphead screw to do this to avoid damaging the screw or allen key)
 
 |
 
