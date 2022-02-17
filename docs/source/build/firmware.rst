@@ -11,14 +11,14 @@ Please follow the _`guide <https://duet3d.dozuki.com/Wiki/SBC_Setup_for_Duet_3#S
 RepRap Firmware
 ================
 
-Please follow the _`guide <webpagehttps://duet3d.dozuki.com/Wiki/Getting_Started_With_Duet_3#Section_Duet_3_and_RepRapFirmware_Num_3>`_ on the Duet3D webpage on how to update the firmware on your board. With the newest RepRap version installed place the .g files found in the LINK folder into the sys folder of your virtual SD card.
+Please follow the _`guide <webpagehttps://duet3d.dozuki.com/Wiki/Getting_Started_With_Duet_3#Section_Duet_3_and_RepRapFirmware_Num_3>`_ on the Duet3D webpage on how to update the firmware on your board. With the newest RepRap version installed place the .g files found in the "Firmware" folder on github into the sys folder of your virtual SD card.
 
 .. Attention:: You will need to edit several parameters of the .g files, as shown below before using your printer.
 
 Config.g
 ^^^^^^^^^^^^^^
 
-The config is run on startup of the printer. In the first part general statements are setting absolute coordinates, relative extruder moves, the printers name, the motion system, the units in mm, and several network settings.
+The config is run on startup of the printer. In the first part, general statements are setting absolute coordinates, relative extruder moves, the printers name, the motion system, the units in mm, and several network settings.
 
 ::
 
@@ -39,7 +39,7 @@ The config is run on startup of the printer. In the first part general statement
 
    You can change the name of your printer here.
 
-In a second section after waiting for a second the stepper motors are configured via the `M569 <https://duet3d.dozuki.com/Wiki/M569>`_ command. The P parameter states the output, with the first number being the board (0 = Main board, 1= Expansion Board, 121 = Toolboard) and the second number describing the stepper output. The S parameter sets the direction with 0 being backwards and 1 forwards. The D parameter describes the mode in which the stepper works, with D3 being "stealth chop".
+In a second section after waiting for a second, the stepper motors are configured via the `M569 <https://duet3d.dozuki.com/Wiki/M569>`_ command. The P parameter states the output, with the first number being the board (0 = Main board, 1= Expansion Board, 121 = Toolboard) and the second number describing the stepper output. The S parameter sets the direction with 0 being backwards and 1 forwards. The D parameter describes the mode in which the stepper works, with D3 being "stealth chop".
 The steppers are assigned to the different axis using the `M584 <https://duet3d.dozuki.com/Wiki/M584>`_ command.
 
 ::
@@ -65,9 +65,9 @@ The steppers are assigned to the different axis using the `M584 <https://duet3d.
 
 .. admonition:: Changes
 
-   If you did not follow the wiring scheme in this guide, you will have to adapt the stepper outputs (P parameter). In case you mixed up some wiring a stepper motor might spin the wrong direction. You can accounf for this by changing the S parameter.
+   If you did not follow the wiring scheme in this guide, you will have to adapt the stepper outputs (P parameter). In case you mixed up some wiring a stepper motor might spin in the wrong direction. You can account for this by changing the S parameter.
 
-The following statements set several motor parameters. `M350 <https://duet3d.dozuki.com/Wiki/M350>`_ sets the microstepping mode to 1/16 and enables interpolation. The `M92 <https://duet3d.dozuki.com/Wiki/M92>`_ command sets how many steps the stepper needs to move to translate into a mm of linear motion on the printer axis. The `M906 <https://duet3d.dozuki.com/Wiki/M906>`_ command sets the motor current in mA as well as the idle factor. The idle factor is expressed in per cent and represents the percentage of current that will hold the motors in a powered on but not used state. The idle timeout is set with the `M84 <https://duet3d.dozuki.com/Wiki/M84>`_ command. S30 means that after 30 seconds of no use the stepper switches to its idle current. With the `M566 <https://duet3d.dozuki.com/Wiki/M566>`_ , `M203 <https://duet3d.dozuki.com/Wiki/M203>`_, and the `M201 <https://duet3d.dozuki.com/Wiki/M201>`_ The maximum velocities, accelerations and speedchanges are set.
+The following statements set several motor parameters. `M350 <https://duet3d.dozuki.com/Wiki/M350>`_ sets the micro stepping mode to 1/16 and enables interpolation. The `M92 <https://duet3d.dozuki.com/Wiki/M92>`_ command sets how many steps the stepper needs to move to translate into an mm of linear motion on the printer axis. The `M906 <https://duet3d.dozuki.com/Wiki/M906>`_ command sets the motor current in mA as well as the idle factor. The idle factor is expressed in per cent and represents the percentage of current that will hold the motors in a powered on but not used state. The idle timeout is set with the `M84 <https://duet3d.dozuki.com/Wiki/M84>`_ command. S30 means that after 30 seconds of no use the stepper switches to its idle current. With the `M566 <https://duet3d.dozuki.com/Wiki/M566>`_ , `M203 <https://duet3d.dozuki.com/Wiki/M203>`_, and the `M201 <https://duet3d.dozuki.com/Wiki/M201>`_ The maximum velocities, accelerations and speed changes are set.
 
 ::
 
@@ -88,7 +88,7 @@ The following statements set several motor parameters. `M350 <https://duet3d.doz
 
    Depending on the extruders you are using, you will have to tweak the extruder steps per mm, extruder current, and speeds/accelerations of the printhead/extruders. We recommend a setting of 368 steps/mm and 1A for the E3D Hemera, and 228 steps/mm and 1.68A for the V4 Pellet Extruder.
 
-Using the `M208 <https://duet3d.dozuki.com/Wiki/M208>`_ command the axis minima (S=1) and maxima (S=0) can be set. For the X and Y axis the endstop type (S1 = Active High Endstop) and position (X1 = Low end of X axis) is defined via `M574 <https://duet3d.dozuki.com/Wiki/M574>`_ with P defining the input on the board, while the C axis (the coupler) is defined to have no endstop. The Z endstop is defined seperatly using the `M558 <https://duet3d.dozuki.com/Wiki/M558>`_ command. Here the P parameter defines the switch type (P8 selects an unfiltered switch (normally closed) for bed probing between the In and Gnd pins of the connector), C defines the input, H defines the dive height (H3 = the bed will move down 3mm before each probe), F defines the feedrate for the z axis, I0 does not invert the z probe reading, and T defines the X/Y feedrate. The `G31 <https://duet3d.dozuki.com/Wiki/G31>`_ sets the Z probe offset and the trigger value. The `M671 <https://duet3d.dozuki.com/Wiki/M671>`_ command defines the position of the Z leadscrews. The positions are used for the automatic med leveling. The `M557 <https://duet3d.dozuki.com/Wiki/M557>`_ sets the range in which the mesh bed leveling grid is measured, aswell as the number of points along one axis of the grid.
+Using the `M208 <https://duet3d.dozuki.com/Wiki/M208>`_ command the axis minima (S=1) and maxima (S=0) can be set. For the X and Y-axis the endstop type (S1 = Active High Endstop) and position (X1 = Low end of X-axis) are defined via `M574 <https://duet3d.dozuki.com/Wiki/M574>`_ with P defining the input on the board, while the C axis (the coupler) is defined to have no endstop. The Z endstop is defined seperately using the `M558 <https://duet3d.dozuki.com/Wiki/M558>`_ command. Here the P parameter defines the switch type (P8 selects an unfiltered switch (normally closed) for bed probing between the In and Gnd pins of the connector), C defines the input, H defines the dive height (H3 = the bed will move down 3mm before each probe), F defines the feedrate for the Z-axis, I0 does not invert the z probe reading, and T defines the X/Y feedrate. The `G31 <https://duet3d.dozuki.com/Wiki/G31>`_ sets the Z probe offset and the trigger value. The `M671 <https://duet3d.dozuki.com/Wiki/M671>`_ command defines the position of the Z leadscrews. The positions are used for automatic bed levelling. The `M557 <https://duet3d.dozuki.com/Wiki/M557>`_ sets the range in which the mesh bed levelling grid is measured, as well as the number of points along one axis of the grid.
 
 ::
 
@@ -111,11 +111,11 @@ Using the `M208 <https://duet3d.dozuki.com/Wiki/M208>`_ command the axis minima 
 
 .. admonition:: Changes
 
-   If you are using the 500mm RatRig configuration you will need to add 100mm to the axis maxima. You will also have chang the M671 command to M671 X-4.5:250:504.5 Y-4.52:505:-4.52 S5 and the M557 to M557 X20:460 Y20:435 P5. You can adapt the gridsize of the mesh bed leveling by chaning the P parameter of the M557 command.
+   If you are using the 500mm RatRig configuration you will need to add 100mm to the axis maxima. You will also have change the M671 command to M671 X-4.5:250:504.5 Y-4.52:505:-4.52 S5 and the M557 to M557 X20:460 Y20:435 P5. You can adapt the grid size of the mesh bed levelling by changing the P parameter of the M557 command.
    
-In the next section the heaters are initialised and the tools are defined. The `M308 <https://duet3d.dozuki.com/Wiki/M308>`_ is used to configure the temperature sensors. The S parameter specifies the sensor number, the P parameter sets the input, the Y parameter specifies the sensor type, for T the thermistor resistance at 25°C is entered, and for B the beta value. The sensor is named using the A parameter.
+In the next section, the heaters are initialised and the tools are defined. The `M308 <https://duet3d.dozuki.com/Wiki/M308>`_ is used to configure the temperature sensors. The S parameter specifies the sensor number, the P parameter sets the input, the Y parameter specifies the sensor type, for T the thermistor resistance at 25°C is entered, and for B the beta value. The sensor is named using the A parameter.
 Heaters are initialized using the `M950 <https://duet3d.dozuki.com/Wiki/M950>`_ command. H defines the heater number, C the output, and T the sensor number. using the `M307 <https://duet3d.dozuki.com/Wiki/M307>`_ command bang-bang control is disabled (in favour of FOPDT) and the PWM limit is set. The heater for the bed is set using the `M140 <https://duet3d.dozuki.com/Wiki/M140>`_ command. The `M143 <https://duet3d.dozuki.com/Wiki/M143>`_ command sets the maximum temperature in the S parameter for the heater H. The heating parameters can be set using the `M307 <https://duet3d.dozuki.com/Wiki/M307>`_ command. These values were found by running the automatic heater tuning with `M303 <https://duet3d.dozuki.com/Wiki/M303>`_ .
-The other tools are defined using the `M563 <https://duet3d.dozuki.com/Wiki/M563>`_ command. P states the tool number, H the heater number, D the extruder number, and F the fan number of the layer fan. Via the S parameter the hotend can be named. The active and passive temperatures are set to 0 using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command.
+The other tools are defined using the `M563 <https://duet3d.dozuki.com/Wiki/M563>`_ command. P states the tool number, H the heater number, D the extruder number, and F the fan number of the layer fan. Via the S parameter, the hotend can be named. The active and passive temperatures are set to 0 using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command.
 Adapt the hotends as you need, swapping out thermistor types, heating outputs, temperature limits, and hotend names. 
  
 ::
@@ -224,9 +224,9 @@ The next section initializes a hotend and a print fan for each tool. The fans ar
 
 .. admonition:: Changes
 
-   If you are using a different wiring scheme, you will have to adapt the outputs of the fans. Depending on the type of fan, you might have to use low frequency PMW to steer it, changing the Q parameter of that fan to a 7 or similar. You can rename the fans here.
+   If you are using a different wiring scheme, you will have to adapt the outputs of the fans. Depending on the type of fan, you might have to use low-frequency PMW to steer it, changing the Q parameter of that fan to a 7 or similar. You can rename the fans here.
 
-In the last section the tool offsets are set using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command, where Pspecifies the tool. With the  `M404 <https://duet3d.dozuki.com/Wiki/M404>`_ command the filament width and nozzle diameter are set, and at the end any currently tool is deselected (This won't result in any movement or toolchange, but sets the initial tool to none selected).
+In the last section, the tool offsets are set using the `G10 <https://duet3d.dozuki.com/Wiki/G10>`_ command, where P specifies the tool. With the  `M404 <https://duet3d.dozuki.com/Wiki/M404>`_ command the filament width and nozzle diameter are set, and at the end, any current tool is deselected (This won't result in any movement or tool change, but sets the initial tool to none selected).
 
 ::
 
@@ -250,7 +250,7 @@ In the last section the tool offsets are set using the `G10 <https://duet3d.dozu
 tfree.g
 ^^^^^^^^
 
-The tfree.g file is called when a tool is deselcted. It will first lower the bed slightly in relative coordinates. Then it removes the X/Y offset of the printhead, so the parking spot can be approached in the normal coordinate system. It will then move to the parking spot, disengage the coupler and turn off the printfan. With the printhead securely parked it moves out from the parking spot for clearance and changes the acceleration and speed parameters, since the toolhead without a tool has less inertia and can move quicker.
+The tfree.g file is called when a tool is deselected. It will first lower the bed slightly in relative coordinates. Then it removes the X/Y offset of the printhead, so the parking spot can be approached in the normal coordinate system. It will then move to the parking spot, disengage the coupler and turn off the printfan. With the printhead securely parked it moves out from the parking spot for clearance and changes the acceleration and speed parameters since the tool head without a tool has less inertia and can move quicker.
 
 ::
 
@@ -276,12 +276,12 @@ The tfree.g file is called when a tool is deselcted. It will first lower the bed
 
 .. admonition:: Changes
 
-   You will have to define the parking spot for each tool seperately. This is specified in section "Calibrating Parking Spot". You can leave the speed and acceleration parameters as suggested. If you want to move the toolhead without tool faster, you will have to change the values for X and Y in all tfree.g files and the config.g file.
+   You will have to define the parking spot for each tool separately. This is specified in section "Calibrating Parking Spot". You can leave the speed and acceleration parameters as suggested. If you want to move the tool head without tool faster, you will have to change the values for X and Y in all tfree.g files and the config.g file.
 
 tpre.g
 ^^^^^^^^
 
-The tpre.g gcode is called beofre a tool is selected. This means it happens before the tool is switched to active, and the tool offset is applied. It will move in front of the tool for clearance and then move into the tool. The couple locks it in place and the parameters are adjusted for the different inertia of the printhead. The bed is moved out of the way to roughly acommodate for the z offset of the printhead. The head is then moved out of the parking spot. This has to be done before the tooloffset, since the tool offset will be changing the position of the parking spot in the adapted coordinate system.
+The tpre.g gcode is called before a tool is selected. This means it happens before the tool is switched to active, and the tool offset is applied. It will move in front of the tool for clearance and then move into the tool. The couple locks it in place and the parameters are adjusted for the different inertia of the printhead. The bed is moved out of the way to roughly accommodate for the z offset of the printhead. The head is then moved out of the parking spot. This has to be done before the tooloffset, since the tool  offset will be changing the position of the parking spot in the adapted coordinate system.
 
 ::
 
@@ -303,12 +303,12 @@ The tpre.g gcode is called beofre a tool is selected. This means it happens befo
 
 .. admonition:: Changes
 
-   You will have to adjust the Parking spot position, further detailed in section "Calibrating Parking Spots", the rough offset, further specified in "Calibrating Tool Offsets", and the speed/acceleration values. You can do this my starting with relatively low values and slowly increasing them with the printhead selected, to see what is still managable with the inertia of the printhead.
+   You will have to adjust the Parking spot position, further detailed in section "Calibrating Parking Spots", the rough offset, further specified in "Calibrating Tool Offsets", and the speed/acceleration values. You can do this by starting with relatively low values and slowly increasing them with the printhead selected, to see what is still manageable with the inertia of the printhead.
 
 tpost.g
 ^^^^^^^^
 
-The tpost.g file is run after the toolchange of the respective tool. I sets the tooloffset, heats up the tool and sets the print fan speed. It will then move out slightly for clearance.
+The tpost.g file is run after the tool change of the respective tool. It sets the tool offset, heats up the tool and sets the print fan speed. It will then move out slightly for clearance.
 
 ::
 
@@ -326,7 +326,7 @@ The tpost.g file is run after the toolchange of the respective tool. I sets the 
 Prusa Slicer
 =============
 
-Please download the newest version of _`Prusa Slicer <https://www.prusa3d.com/de/page/prusaslicer_424/>`_ from their webpage. You will now have to add the config files for the printer, the printing process, and the filaments. Please download the .ini files from the folder "Prusa Slicer" on the github repository. You will have to place them in certain folders in the Prusa Slicer. You will fin the folder under:
+Please download the newest version of _`Prusa Slicer <https://www.prusa3d.com/de/page/prusaslicer_424/>`_ from their webpage. You will now have to add the config files for the printer, the printing process, and the filaments. Please download the .ini files from the folder "Prusa Slicer" on the github repository. You will have to place them in certain folders in the Prusa Slicer. You will find the folder under:
 
 **Windows:**  C:Users/username/AppData/Roaming/PrusaSlicer
 
@@ -334,8 +334,8 @@ Please download the newest version of _`Prusa Slicer <https://www.prusa3d.com/de
 
 **Linux:**    ~/.config/PrusaSlicer
 
-.. Note:: On windows you will have to show hidden folders. You can do this in explorer under view -> options.
+.. Note:: On windows, you will have to show hidden folders. You can do this in explorer under view -> options.
 
 You can now put the .ini files into the corresponding folders in Prusa Slicer. (filament -> filament etc.).
 
-You can define a physical printer in Prusa Slicer to directly upload printjobs to your printer. For this please open Prusa Slicer (After adding the .ini files) and navigate to the "Printer Settings page".
+You can define a physical printer in Prusa Slicer to directly upload print jobs to your printer. For this please open Prusa Slicer (After adding the .ini files) and navigate to the "Printer Settings page".
