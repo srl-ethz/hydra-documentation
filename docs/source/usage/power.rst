@@ -8,3 +8,5 @@ The Raspberry Pi should automatically connect to your WiFi network. If this is n
 Open your preferred browser on your computer and type in ADRESS. The duet web interface will show up. 
 
 .. Caution:: If the web interface does not show all hotends, you might need to restart the RepRap Firmware, by clicking on "Emergency Stop" in the top right corner.
+
+If you are unable to connect to the printer, scan you network for the IP adress of the Raspberry Pi and double check that you are using the correct IP adress to attempt to connect to it.
