@@ -5,7 +5,7 @@ Overview
 Motion System and Toolchanger
 =============================
 
-The frame of the Hydra uses a custom RatRig V-core 3. To simplify the ordering process, the mainboard, a hemera extruder, and a power supply are ordered via RatRig. You can source these parts otherwise, just adapt the ordering selection from RatRig. You can customize the RatRig V-Core by going to the customizer and selecting the following options:
+The frame of the Hydra uses a custom RatRig V-core 3. To simplify the ordering process, the mainboard, a Hemera extruder, and a power supply are ordered via RatRig. You can source these parts otherwise, just adapt the ordering selection from RatRig. You can customize the RatRig V-Core by going to the customizer and selecting the following options:
 
 ========================================================================  =====================================================================================================
 Prompt                                                                    Selection
@@ -32,7 +32,7 @@ Add Workbench	                                                            No
 Add leveling feet for the workbench	                                      No
 ========================================================================  =====================================================================================================
 
-The toolchanger parts can be ordered directly from the E3D online store or locally sourced. Note: If you're using a different tool configuration, you do not need to order an E3D Hemera.
+The tool changer parts can be ordered directly from the E3D online store or locally sourced. Note: If you're using a different tool configuration, you do not need to order an E3D Hemera.
 
 ========================= ========= =================================================================================
 Item                       Amount    Ordering Link
@@ -64,7 +64,7 @@ To mount the Electronics you will need either two or four sheets of PMMA, depend
 |                        | 300mm x 610mm       | 
 +------------------------+---------------------+
 
-The Hydra MK1 uses three Duet3D boards (listed below) and a Raspberry Pi 3B. The Rapsberry Pi additionally requires a 5V powersource and optionally an ethernet cable to connect to your PC. The sourcing of these parts will depend on the availability in your country. The Mainboard was selected when ordering the RatRig. The Expansion board can also be ordered from the RatRig webshop. 
+The Hydra MK1 uses three Duet3D boards (listed below) and a Raspberry Pi 3B. The Raspberry Pi additionally requires a 5V power source and optionally an ethernet cable to connect to your PC. The sourcing of these parts will depend on the availability in your country. The Mainboard was selected when ordering the RatRig. The Expansion board can also be ordered from the RatRig webshop. 
 
 =========================== ========= 
 Item                         Amount   
@@ -77,7 +77,7 @@ Powrsupply (5V)             1
 Ethernet Cable (optional)   1
 =========================== ========= 
 
-To connect the electronics you will need the following lengths of cables. The first table shows the langths for different types of cables. The second tables shows the lengths for different color cables (Stepper cable = back, red, blue, green; Fan cable = black, red; Thermistor cable = white, white; Limit Switch cable = black, red, white; Heater cable = orange, orange; 24V cable = red(24V), black(24V)). The number in brackets represents the needed length incase the stepper cables were not purchased with the RatRig kit.
+To connect the electronics you will need the following lengths of cables. The first table shows the lengths for different types of cables. The second tables shows the lengths for different color cables (Stepper cable = back, red, blue, green; Fan cable = black, red; Thermistor cable = white, white; Limit Switch cable = black, red, white; Heater cable = orange, orange; 24V cable = red(24V), black(24V)). The number in brackets represents the needed length in case the stepper cables were not purchased with the RatRig kit.
 
 
 ========================= ==================== 
@@ -105,7 +105,7 @@ Black (24V)      300
 Red (24V)        300
 =============== =====================
 
-To secure the cables to the PMMA plate you will need several zipties. To secure the different boards, we recommend using 8mm M3 standoffs, as these can be used for the toolchanger assembly. You will also need two 28mm M3 standoffs for the toolchanger assembly.
+To secure the cables to the PMMA plate you will need several zip-ties. To secure the different boards, we recommend using 8mm M3 standoffs, as these can be used for the tool changer assembly. You will also need two 28mm M3 standoffs for the tool changer assembly.
 
 
 ========================= ========= 
@@ -116,7 +116,7 @@ PCB standoffs M3 (8mm)	   20
 PCB standoffs M3 (28mm)    2
 ========================= ========= 
 
-To connect the Powersupply to your powergrid, you will need some mains wiring. This should only be done by a certified electrician. You will need the following items:
+To connect the Powersupply to your power grid, you will need some mains wiring. This should only be done by a certified electrician. You will need the following items:
 
 ============================= ========= 
 Item                           Amount   
