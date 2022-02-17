@@ -2,7 +2,13 @@
 Unclogging Hemera
 ################################
 
+If the Hemera extruder is clogged, first try to heat up the hotend and extrude some material at the slowest speed.
 
+If this fails, try raising the temperature by 10-20 degrees (assuming the material is not flammable or deteriorates at said temperatures) and try to extrude some material.
+
+If this fails, remove the nozzle from the extruder and try the same procedure.
+
+If the Hemera extruder is still clogged, you will have to take it apart, to clean spur gear. This will take between 15 and 30 minutes. While the hotend is at temperature, pull out any remainder of the filament from the top of the extruder. Then cool down the extruder (This can be expediated by turning on the part cooling fan) and follow the guide below.
 
 
 .. figure:: img/HemeraUnclogg1.jpg
