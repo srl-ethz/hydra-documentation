@@ -2,7 +2,7 @@
 Calibrating Tool Offsets
 ################################
 
-This guide assumes you have calibrated your parking spots already. We will calibrate the tool offsets in two sections. First the Z offset will be determined. After that the X and Y offset will be set.
+This guide assumes you have calibrated your parking spots already. We will calibrate the tool offsets in two sections. First the Z offset will be determined. After that the X and Y offset will be set. Always work on the respective .g file. If you are working on tool 0 the .g files are tfree0.g, tpre0.g and tpost0.g.
 
 Z - Offset
 ================
@@ -91,4 +91,17 @@ tpost.g
 X/Y - Offset
 ================
 
-First by eye with dot, then with print
+If you have set the Z offsets of your tools it is time to calibrate the X and Y offset. You can do this in three steps: Roughly by eye, roughly by lines and lastly, precise by calibration print. You will have to enter your new X and Y offset values in tpost.g:
+
+::
+
+  G10 P0 X21.4 Y-7.9 Z-5.9		;Set tool offset
+  M116 P0							;Heat up tool
+  M106 R1							;Restore print fan speed
+  G91								;Relative positioning
+  G1 Y-20 F6000					;Move out
+  G90								;Absolute positioning   
+
+.. admonition:: Changes
+
+   In the line "Set tool offset" enter the X and Y offsets you are currently working on.
