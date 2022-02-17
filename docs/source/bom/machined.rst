@@ -10,7 +10,7 @@ The Hydra MK1 assembly requires two different machined parts. One has to be lath
 TC Plate
 ^^^^^^^^^^^^^^^^
 
-Please find the technical drawing and step file in the machined parts folder. You will need two identical parts, milled or cut from 2mm aluminiumplates with general tolerances (ISO 2768-1). If your supplier offers taping as a service, you can add M3 taps to the outer four holes that have a 2.5mm diameter. Otherwise you will have to tap these holes yourself. Make sure the the two 3.2mm holes second from the top are countersunk, so an M3 screw sits flush with the top as shown in the figure below.
+Please find the technical drawing and step file in the machined parts folder. You will need two identical parts, milled or cut from 2mm aluminium plates with general tolerances (ISO 2768-1). If your supplier offers taping as a service, you can add M3 taps to the outer four holes that have a 2.5mm diameter. Otherwise, you will have to tap these holes yourself. Make sure the two 3.2mm holes second from the top are countersunk, so an M3 screw sits flush with the top as shown in the figure below.
 
 TC Shaft
 ^^^^^^^^^^^
