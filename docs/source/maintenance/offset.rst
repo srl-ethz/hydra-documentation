@@ -105,3 +105,20 @@ If you have set the Z offsets of your tools it is time to calibrate the X and Y 
 .. admonition:: Changes
 
    In the line "Set tool offset" enter the X and Y offsets you are currently working on.
+
+Roughly by eye
+^^^^^^^^^^^^^^^^
+
+You can either create X and Y offsets for every tool, or you can create them relative to a tool. This will lead to less work in the long run. You can estimate the offset in X and Y direction by measuring the distance from the nozzle of the tool to the tool changer, resp. one nozzle on the tool changer to another nozzle on the tool changer. This should give a rough staring point.
+
+Enter these values in the tpost.g file and continue with the next step.
+
+Roughly by line
+^^^^^^^^^^^^^^^^
+
+For this print the "Calibration_line" stl found in the "Calibration" folder in the github repository. The file consists of two sets lines that are seperated by 10mm in X and Y direction. Set one of the horizontal and one of the vertical lines to be printed with your "0 offset" extruder and the other two to be printed with the extruder you are calibrating. Print the file and meausre the distance between the lines. The difference in the measure distance to 10mm can directly be applied to the X and Y offset in the tpost.g file.
+
+Precise by calibration print
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For this print the "Calibration_Grid" stl found in the "Calibration" folder in the github repository. The file consists of two sets of two combs that will tell you the exact remaining offset of your extruder. Follow the same procedure as in "Roughly by line". Have a close look at the two combs. Two of the struts should be perfectly aligned. This is the remaining offset of your tool. If the middle two struts are aligned, that direction of the tool is fully calibrated. for each strut away from the middle, add 0.1mm.
