@@ -19,8 +19,6 @@ Unclogging Hemera
 
 | 
 
-| 
-
 ----------------------------
 
 .. figure:: img/HemeraUnclogg2.jpg
@@ -29,7 +27,7 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Unscrew the hotend fan, by loosening the two self tapping screws.
 
 |
 
@@ -47,7 +45,8 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Remove the hotend fan.
+
 
 |
 
@@ -65,7 +64,7 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Unscrew the heatsink, by loosening the two machine screws.
 
 |
 
@@ -83,11 +82,9 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Remove the heat sink.
 
-|
-
-| 
+| Note: the heatsink also holds some shafts for the gears in place. If it is stuck, carefully wiggle it free.
 
 | 
 
@@ -101,7 +98,8 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Set the heatsink to the side of the extruder.
+
 
 |
 
@@ -119,7 +117,7 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| If you can see any debris in the stage remove it.
 
 |
 
@@ -137,9 +135,9 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Remove the idler lever by pulling it out of the heatsink. 
 
-|
+| Note: There is a spring tensioning the idler. This will also be pulled out.
 
 | 
 
@@ -155,7 +153,7 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Remove any debris on the spurgear, and around the hotend.
 
 |
 
@@ -173,7 +171,8 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Set the spring onto the plastic pin in the idler.
+
 
 |
 
@@ -191,7 +190,7 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Place the idler on the pin in the heatsink.
 
 |
 
@@ -209,7 +208,8 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Place the spurgear in the bearing on the heatsink. Make sure the idler and spurgear mesh.
+
 
 |
 
@@ -227,7 +227,8 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Place the extruder on the heatsink. This is easier than placing the heatsink on the extruder, since some components might fall out of the heatsink.
+
 
 |
 
@@ -245,7 +246,8 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Fasten the heatsink using the two machine screws.
+
 
 |
 
@@ -263,7 +265,8 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Fasten the hotend fan using the selftapping screws.
+
 
 |
 
