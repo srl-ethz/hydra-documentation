@@ -96,7 +96,7 @@ Heating Element
    :alt: Left floating image
    :align: left
 
-| Insert the thermistor (It makes sense to check the thermistor by mearing its resistance. It should be around VALUE)
+| Insert the thermistor (It makes sense to check the thermistor by mearing its resistance. It should be around 100 kOhm)
 
 |
 
