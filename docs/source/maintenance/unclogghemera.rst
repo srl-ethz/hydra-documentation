@@ -11,9 +11,9 @@ Unclogging Hemera
    :align: left
 
 
-| Text
+| Remove the hemera from the printer, by cutting any zipties, unplugging the connectors, and unscrewing the cable brace / metal strip.
 
-|
+| Note: Possibly to remove the connectors, you will have to unscrew the top part, by loosening the four screws at the top of the extruder.
 
 | 
 
