@@ -29,8 +29,6 @@ Unclogging Hemera
 
 | Unscrew the hotend fan, by loosening the two self tapping screws.
 
-|
-
 | 
 
 | 
@@ -68,7 +66,6 @@ Unclogging Hemera
 
 |
 
-| 
 
 | 
 
@@ -85,6 +82,8 @@ Unclogging Hemera
 | Remove the heat sink.
 
 | Note: the heatsink also holds some shafts for the gears in place. If it is stuck, carefully wiggle it free.
+
+|
 
 | 
 
@@ -143,7 +142,6 @@ Unclogging Hemera
 
 | 
 
-| 
 
 ----------------------------
 
@@ -156,8 +154,6 @@ Unclogging Hemera
 | Remove any debris on the spurgear, and around the hotend.
 
 |
-
-| 
 
 | 
 
@@ -210,9 +206,6 @@ Unclogging Hemera
 
 | Place the spurgear in the bearing on the heatsink. Make sure the idler and spurgear mesh.
 
-
-|
-
 | 
 
 | 
@@ -228,9 +221,6 @@ Unclogging Hemera
 
 
 | Place the extruder on the heatsink. This is easier than placing the heatsink on the extruder, since some components might fall out of the heatsink.
-
-
-|
 
 | 
 
@@ -255,8 +245,6 @@ Unclogging Hemera
 
 | 
 
-| 
-
 ----------------------------
 
 .. figure:: img/HemeraUnclogg15.jpg
@@ -269,8 +257,6 @@ Unclogging Hemera
 
 
 |
-
-| 
 
 | 
 
