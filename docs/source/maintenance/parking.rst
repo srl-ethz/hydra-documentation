@@ -74,4 +74,4 @@ tpre.g
 
    In the line "Move in front of Tool Location" enter the X-coordinate you noted dwon, and the Y-coordinate minus 40. **If you enter the Y-coordinate you noted down the printer will crash trying to pick up the tool!**
 
-Try the first tool change with your mouse hovering over the emergency stop.
+Try the first tool change with the bed lowered, so it does not collide with the tools and with your mouse hovering over the emergency stop.
