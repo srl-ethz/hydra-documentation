@@ -12,7 +12,7 @@ Fasten the parking spot if it was loose and select the "coupler - unlock" macro.
 
 .. DANGER:: Do not move further to the back (positive Y) and do not move in X-direction!
 
-We will now edit the corresponting tfree.g, and tpre.g files, found in the "system" tab in the duet web interface.
+We will now edit the corresponting tfree.g, and tpre.g files, found in the "system" tab in the duet web interface. Always work on the respective .g file. If you are working on tool 0 the .g files are tfree0.g, tpre0.g and tpost0.g.
 
 tfree.g
 ^^^^^^^^
