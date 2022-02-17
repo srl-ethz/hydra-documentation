@@ -66,9 +66,9 @@ tpre.g
 
   G91             ;Relative positioning
   G1 Z10 F1000    ;Move bed out of the way
+  G1 Y-40 F6000   ;Move out
   G90             ;Absolute positioning
 
-  G1 Y-40 F6000   ;Move out
 
 .. admonition:: Changes
 
