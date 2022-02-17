@@ -17,6 +17,12 @@ TC Shaft
 
 Please find the technical drawing and step file in the machined parts folder. You will need a single shaft machined out of steel 1.4301 with general tolerances (ISO 2768-1).
 
+Electronics mounting
+^^^^^^^^^^^^^^^^^^^^
+
+Please find the .dxf files for the electronics mounting in the machined parts folder. These four parts need to be cut out of 4mm thick PMMA sheets. We recommend using a non translucent PMMA for a visually pleasing finish.
+
+
 V4 Pellet Extruder
 ===================
 
