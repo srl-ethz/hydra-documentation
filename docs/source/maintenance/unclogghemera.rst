@@ -35,6 +35,8 @@ Unclogging Hemera
 
 | 
 
+| 
+
 ----------------------------
 
 .. figure:: img/HemeraUnclogg3.jpg
@@ -44,7 +46,6 @@ Unclogging Hemera
 
 
 | Remove the hotend fan.
-
 
 |
 
@@ -66,6 +67,7 @@ Unclogging Hemera
 
 |
 
+| 
 
 | 
 
@@ -159,6 +161,8 @@ Unclogging Hemera
 
 | 
 
+| 
+
 ----------------------------
 
 .. figure:: img/HemeraUnclogg10.jpg
@@ -212,6 +216,8 @@ Unclogging Hemera
 
 | 
 
+| 
+
 ----------------------------
 
 .. figure:: img/HemeraUnclogg13.jpg
@@ -239,6 +245,8 @@ Unclogging Hemera
 | Fasten the heatsink using the two machine screws.
 
 
+| 
+
 |
 
 | 
@@ -255,6 +263,8 @@ Unclogging Hemera
 
 | Fasten the hotend fan using the selftapping screws.
 
+
+| 
 
 |
 
