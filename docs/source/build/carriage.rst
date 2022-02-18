@@ -3,24 +3,24 @@ X Carriage and Toolchanger
 ################################
 
 For the X-carriage assembly you will need:
-\begin{itemize}
-    \item 2x \SI{28}{mm} spacers
-    \item 2x Machined X Carriage Plate
-    \item 1x 3D printed Top Block
-    \item 1x Tensioning System (8 parts)
-    \item Standoffs
-    \item 2x M3x40 caphead screw
-    \item 4x M3 locking nut
-    \item 4x M3x6 countersunk screw
-    \item 6x M3x6 caphead screw
-    \item 2x M3x10 countersunk screw
-    \item 4x M3x16 caphead screw
-    \item 1x microswitch endstop
-\end{itemize}
 
-First, attach the four \SI{8}{mm} inner thread spacers to the plates by attaching the four M3x6 countersunk screws as shown.
+2x 28 mm spacers
+2x Machined X Carriage Plate
+1x 3D printed Top Block
+1x Tensioning System (8 parts)
+Standoffs
+2x M3x40 caphead screw
+4x M3 locking nut
+4x M3x6 countersunk screw
+6x M3x6 caphead screw
+2x M3x10 countersunk screw
+4x M3x16 caphead screw
+1x microswitch endstop
 
-Next, attach the two plates together using the \SI{28}{mm} spacers in between the plates, and the other four \SI{8}{mm} spacers to hold them in place. 
+
+First, attach the four 8mm inner thread spacers to the plates by attaching the four M3x6 countersunk screws as shown.
+
+Next, attach the two plates together using the 28 mm spacers in between the plates, and the other four 8 mm spacers to hold them in place. 
 
 Make sure the parts of the tensioning system slot into each other and slide all the way in.  
 
@@ -32,7 +32,7 @@ Insert the two M3x10 countersunk screws. These are later used for tensioning the
 
 Attach the top block to the X carriage using four M3x16 caphead screws. 
 
-Attach the microswitch to the top block using two M3x6mm caphead screws.
+Attach the microswitch to the top block using two M3x6 caphead screws.
 
 Attach the assembly to the topblock, using the two M3x40 caphead screws and two M3 locking nuts.
 
