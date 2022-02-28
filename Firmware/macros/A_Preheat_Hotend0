@@ -1,0 +1,2 @@
+;Sets tool 0 to its passive temperature
+M568 P0 A1
