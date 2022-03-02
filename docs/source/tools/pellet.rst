@@ -190,21 +190,9 @@ Heating Element
 Pellet Parking Spot
 ===================
 
+Prepare the printed part “pellet_parking”, the machined part “pellet_bracket”, two M3 locking nuts, one M3x5 screw, two pins, the small magnet, and two M3x16 screws (The last three items are included in the “blank toolplate and dock” kit from E3D).
 
-.. figure:: img/Pellet14.jpg
-   :figwidth: 320px
-   :alt: Left floating image
-   :align: left
-
-| Prepare the printed part “pellet_parking”, the machined part “pellet_bracket”, two M3 locking nuts, one M3x5 screw, two pins, the small magnet, and two M3x16 screws (The last three items are included in the “blank toolplate and dock” kit from E3D).
-
-| 
-
-|
-
-----------------------------
-
-.. figure:: 
+.. figure:: img/PelPark2.jpg
    :figwidth: 320px
    :alt: TBD
    :align: left
@@ -219,7 +207,7 @@ Pellet Parking Spot
 
 ----------------------------
 
-.. figure:: 
+.. figure:: img/PelPark1.jpg
    :figwidth: 320px
    :alt: TBD
    :align: left
@@ -234,7 +222,7 @@ Pellet Parking Spot
 
 ----------------------------
 
-.. figure:: 
+.. figure:: img/PelPark3.jpg
    :figwidth: 320px
    :alt: TBD
    :align: left
@@ -249,7 +237,7 @@ Pellet Parking Spot
 
 ----------------------------
 
-.. figure:: 
+.. figure:: img/PelPark5.jpg
    :figwidth: 320px
    :alt: TBD
    :align: left
@@ -264,7 +252,7 @@ Pellet Parking Spot
 
 ----------------------------
 
-.. figure:: 
+.. figure:: img/PelPark4.jpg
    :figwidth: 320px
    :alt: TBD
    :align: left
