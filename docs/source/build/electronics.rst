@@ -33,6 +33,8 @@ For the electronics, you will need to crimp your own connectors. We recommend ad
 
 | 
 
+|
+
 | 
 
 | 
@@ -67,6 +69,8 @@ For the electronics, you will need to crimp your own connectors. We recommend ad
 
 | 
 
+|
+
 | 
 
 ----------------------------
@@ -83,6 +87,8 @@ For the electronics, you will need to crimp your own connectors. We recommend ad
 | Connect the power wires for the three boards. Note the inline fuse in the live wire for the 1LC. 
 
 | 
+
+|
 
 | 
 
@@ -106,6 +112,10 @@ For the electronics, you will need to crimp your own connectors. We recommend ad
 
 | 
 
+|
+
+|
+
 ----------------------------
 
 Connect the heater cable and thermistor for the heated bed and the extruders as shown in the wiring diagram. Lastly secure the wires using the zip ties.
@@ -115,8 +125,7 @@ Wiring Diagram
 
 .. figure:: img/Elec7.png
    :figwidth: 600px
-   :alt: Left floating image
-   :align: left
+   :align: center
    
 Mains Wiring
 ==============
@@ -125,7 +134,6 @@ Mains Wiring
 
 .. figure:: img/Elec8.pdf
    :figwidth: 600px
-   :alt: Left floating image
-   :align: left
+   :align: center
 
 .. DANGER:: Mains voltage can be lethal and should only be handled by a certified electrician!
