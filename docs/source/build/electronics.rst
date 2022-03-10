@@ -57,6 +57,10 @@ For the electronics, you will need to crimp your own connectors. We recommend ad
 
 | 
 
+|
+
+|
+
 ----------------------------
 
 .. figure:: img/Elec4.jpg
@@ -93,6 +97,8 @@ For the electronics, you will need to crimp your own connectors. We recommend ad
 |
 
 | 
+
+|
 
 | 
 
