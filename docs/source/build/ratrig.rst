@@ -10,7 +10,7 @@ To assemble the Rat Rig, please follow the instructions found `here <https://rat
 - `Step 1.17 <https://ratrig.dozuki.com/Guide/01.+Frame+assembly/53?lang=en#s302>`_ Attach the cable guide and Y endstop: Please use the modified cable guide, for which the STL was provided.
 - `Step 6.13 <https://ratrig.dozuki.com/Guide/06.+X+gantry/76#s498>`_  X endstop block: The Hydra uses a slightly modified X endstop block. Please use this modified version, for which the STL was provided.
 
-To attach the modified Y endstop, simply attach the microswitch to the modified 3D printed part using two M3x6 caphead screws.
+To attach the modified Y endstop, simply attach the microswitch to the modified 3D printed part using two M3x6 caphead screws. 
 
 
 .. figure:: img/Ystop1.jpg

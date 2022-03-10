@@ -6,12 +6,12 @@ Firmware and Slicer
 Duet Pi
 ===========
 
-Please follow the _`guide <https://duet3d.dozuki.com/Wiki/SBC_Setup_for_Duet_3#Section_Step_1_Flash_the_image_file>`_ on the Duet3D webpage, to set up your Raspberry Pi. You will not have to configure your system files with the online tool. Instead, you can follow the steps in the RepRap Firmware section.
+Please follow the `guide <https://duet3d.dozuki.com/Wiki/SBC_Setup_for_Duet_3#Section_Step_1_Flash_the_image_file>`_ on the Duet3D webpage, to set up your Raspberry Pi. You will not have to configure your system files with the online tool. Instead, you can follow the steps in the RepRap Firmware section.
 
 RepRap Firmware
 ================
 
-Please follow the _`guide <webpagehttps://duet3d.dozuki.com/Wiki/Getting_Started_With_Duet_3#Section_Duet_3_and_RepRapFirmware_Num_3>`_ on the Duet3D webpage on how to update the firmware on your board. With the newest RepRap version installed place the .g files found in the "Firmware" folder on github into the sys folder of your virtual SD card.
+Please follow the `guide <webpagehttps://duet3d.dozuki.com/Wiki/Getting_Started_With_Duet_3#Section_Duet_3_and_RepRapFirmware_Num_3>`_ on the Duet3D webpage on how to update the firmware on your board. With the newest RepRap version installed place the .g files found in the "Firmware" folder on github into the sys folder of your virtual SD card.
 
 .. Attention:: You will need to edit several parameters of the .g files, as shown below before using your printer.
 
@@ -331,7 +331,7 @@ The tpost.g file is run after the tool change of the respective tool. It sets th
 Prusa Slicer
 =============
 
-Please download the newest version of _`Prusa Slicer <https://www.prusa3d.com/de/page/prusaslicer_424/>`_ from their webpage. You will now have to add the config files for the printer, the printing process, and the filaments. Please download the .ini files from the folder "Prusa Slicer" on the github repository. You will have to place them in certain folders in the Prusa Slicer. You will find the folder under:
+Please download the newest version of `Prusa Slicer <https://www.prusa3d.com/de/page/prusaslicer_424/>`_ from their webpage. You will now have to add the config files for the printer, the printing process, and the filaments. Please download the .ini files from the folder "Prusa Slicer" on the github repository. You will have to place them in certain folders in the Prusa Slicer. You will find the folder under:
 
 **Windows:**  C:Users/username/AppData/Roaming/PrusaSlicer
 

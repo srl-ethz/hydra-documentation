@@ -63,6 +63,8 @@ For the X-carriage assembly you will need:
 
 | 
 
+|
+
 | 
 
 | 
@@ -96,6 +98,8 @@ For the X-carriage assembly you will need:
 
 | 
 
+|
+
 | 
 
 | 
@@ -110,6 +114,8 @@ For the X-carriage assembly you will need:
 | Insert the two M3x10 countersunk screws. These are later used for tensioning the belts.
 
 | 
+
+|
 
 | 
 
@@ -126,6 +132,8 @@ For the X-carriage assembly you will need:
 
 | 
 
+|
+
 | 
 
 | 
@@ -140,6 +148,8 @@ For the X-carriage assembly you will need:
 | Attach the microswitch to the top block using two M3x6 caphead screws.
 
 | 
+
+|
 
 | 
 
@@ -161,6 +171,8 @@ Attach the assembly to the topblock, using the two M3x40 caphead screws and two 
 | 
 
 | 
+
+|
 
 | 
 
