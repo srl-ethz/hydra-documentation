@@ -140,7 +140,7 @@ Mains Wiring
    
 .. DANGER:: Mains voltage can be lethal and should only be handled by a certified electrician!
 
-.. figure:: img/Elec8.pdf
+.. figure:: img/Elec8.png
    :figwidth: 600px
    :align: center
 
