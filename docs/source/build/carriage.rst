@@ -98,6 +98,8 @@ For the X-carriage assembly you will need:
 
 | 
 
+|
+
 | 
 
 | 
