@@ -220,6 +220,8 @@ Prepare the printed part “pellet_parking”, the machined part “pellet_brack
 
 |
 
+|
+
 ----------------------------
 
 .. figure:: img/PelPark3.jpg
@@ -234,6 +236,8 @@ Prepare the printed part “pellet_parking”, the machined part “pellet_brack
 |
 
 | 
+
+|
 
 ----------------------------
 
@@ -262,6 +266,8 @@ Prepare the printed part “pellet_parking”, the machined part “pellet_brack
 | 
 
 | 
+
+|
 
 |
 
