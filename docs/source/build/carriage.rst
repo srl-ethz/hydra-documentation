@@ -115,6 +115,8 @@ For the X-carriage assembly you will need:
 
 | 
 
+|
+
 | 
 
 | 
@@ -130,6 +132,8 @@ For the X-carriage assembly you will need:
 
 | 
 
+|
+
 | 
 
 | 
@@ -144,6 +148,8 @@ For the X-carriage assembly you will need:
 | Attach the microswitch to the top block using two M3x6 caphead screws.
 
 | 
+
+|
 
 | 
 
@@ -165,6 +171,8 @@ Attach the assembly to the topblock, using the two M3x40 caphead screws and two 
 | 
 
 | 
+
+|
 
 | 
 
